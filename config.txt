@@ -3,7 +3,7 @@
 # keyword
 fürdőszobaszaniter
 # blacklist ", " elválasztva
-Szaniteronline
+Szaniteronline, furdoszoba-szaniter.hu
 # maxmiális hirdetés megnyitás
 6
 # hányszor menjen lefele?, 0 ha 2 s-et álljon
