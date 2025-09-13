@@ -11,4 +11,4 @@ Water Fun, ZuhanykabinPont
 # Leálljon?
 False
 # Cookie feliratok amiket keres ", " elválasztva
-Elfogadom, e
+Elfogadom, Elfogadás
