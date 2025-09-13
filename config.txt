@@ -8,5 +8,5 @@ Water Fun, ZuhanykabinPont
 6
 # hányszor menjen lefele?, 0 ha 2 s-et álljon
 3
-
-
+# Leálljon?
+False
