@@ -9,6 +9,6 @@ waterfun, waterfun.hu, Water Fun, zuhanypont.hu, ZuhanyPont
 # hányszor menjen lefele?, 0 ha 2 s-et álljon
 3
 # Leálljon?
-False
+True
 # Cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás
