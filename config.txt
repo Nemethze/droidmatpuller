@@ -1,7 +1,7 @@
 # idő beállítása
 2
 # keyword
-zuhanyfal
+fürdőszoba szaniter
 # blacklist ", " elválasztva
 Water Fun, ZuhanykabinPont
 # maxmiális hirdetés megnyitás
