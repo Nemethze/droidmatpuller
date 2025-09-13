@@ -3,7 +3,7 @@
 # keyword
 zuhanykabin
 # blacklist ", " elválasztva
-Water Fun, ZuhanykabinPont
+waterfun, ZuhanykabinPont
 # maxmiális hirdetés megnyitás
 6
 # hányszor menjen lefele?, 0 ha 2 s-et álljon
