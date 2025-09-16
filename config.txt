@@ -3,7 +3,7 @@
 # keyword
 zuhanykabin
 # blacklist ", " elválasztva
-waterfun, waterfun.hu, Water Fun, zuhanykabinpont.hu, ZuhanykabinPont, https://www.zuhanykabinpont.hu, https://www.waterfun.hu, Zuhanykabinp...
+waterfun, waterfun.hu, Water Fun, zuhanykabinpont.hu, ZuhanykabinPont, https://www.zuhanykabinpont.hu, https://www.waterfun.hu, Zuhanykabinp..., Itt: ROIshopper
 # maxmiális hirdetés megnyitás
 6
 # hányszor menjen lefele?, 0 ha 2 s-et álljon
