@@ -1,7 +1,7 @@
 # idő beállítása
 2
 # keyword
-zuhanykabin
+zuhanykabin 80
 # blacklist ", " elválasztva
 waterfun, waterfun.hu, Water Fun, zuhanykabinpont.hu, ZuhanykabinPont, https://www.zuhanykabinpont.hu, https://www.waterfun.hu, Zuhanykabinp..., Itt: ROIshopper
 # maxmiális hirdetés megnyitás
