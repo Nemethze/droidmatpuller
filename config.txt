@@ -1,14 +1,16 @@
-# idő beállítása
+# repülő mód utánni várakozási idő beállítása
 2
-# keyword
+# keresési szavak
 zuhanyajtó 70
-# blacklist ", " elválasztva
+# itemek, amiket nem szeretnénk kilőni ", " elválasztva
 waterfun, waterfun.hu, Water Fun, zuhanykabinpont.hu, ZuhanykabinPont, https://www.zuhanykabinpont.hu, https://www.waterfun.hu, Zuhanykabinp..., Itt: ROIshopper
 # maxmiális hirdetés megnyitás
 6
-# hányszor menjen lefele?, 0 ha 2 s-et álljon
+# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
-# Leálljon?
-True
-# Cookie feliratok amiket keres ", " elválasztva
+# cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás
+# a shopping leállítása
+True
+# a kereséses leállítása
+True
