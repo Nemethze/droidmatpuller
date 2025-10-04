@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása
 2
-# keresési szavak
-zuhanyajtó 70
+# keresési szavak ", " elválasztva
+zuhanyfal 80, zuhanyfal 90, zuhanyfal 70, zuhanyfal 100, zuhanyfal 120, zuhanyfal 140, zuhanykabin 70, zuhanykabin 80,  zuhanykabin 90, zuhanykabin 100, zuhanykabin 120, zuhanykabin 140
 # itemek, amiket nem szeretnénk kilőni ", " elválasztva
 waterfun, waterfun.hu, Water Fun, zuhanykabinpont.hu, ZuhanykabinPont, https://www.zuhanykabinpont.hu, https://www.waterfun.hu, Zuhanykabinp..., Itt: ROIshopper
 # maxmiális hirdetés megnyitás
