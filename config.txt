@@ -2,6 +2,7 @@
 2
 # keresési szavak ", " elválasztva
 zuhanyfal 80, zuhanyfal 90, zuhanyfal 70, zuhanyfal 100, zuhanyfal 120, zuhanyfal 140
+# balcklistelt itemek  ", " elválasztva
 waterfun, waterfun.hu, Water Fun, zuhanykabinpont.hu, ZuhanykabinPont, https://www.zuhanykabinpont.hu, https://www.waterfun.hu, Zuhanykabinp..., Itt: ROIshopper
 # maxmiális hirdetés megnyitás
 6
