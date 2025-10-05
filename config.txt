@@ -9,7 +9,7 @@ waterfun, waterfun.hu, Water Fun, zuhanykabinpont.hu, ZuhanykabinPont, https://w
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
 # cookie feliratok amiket keres ", " elválasztva
-Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes cookie elfogadása
+Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése
 # a shopping leállítása
 False
 # a kereséses leállítása
