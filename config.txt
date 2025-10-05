@@ -13,4 +13,4 @@ Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás
 # a shopping leállítása
 False
 # a kereséses leállítása
-True
+False
