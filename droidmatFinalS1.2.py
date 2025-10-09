@@ -100,11 +100,13 @@ def openAd(maxAds):
                     if not t_bounds:
                         continue
                     t_x = (t_bounds["left"] + t_bounds["right"]) // 2
-                    if 0 <= t_x <= 450:  # 220 ±100
+                    if 0 <= t_x <= 450:
                         blacklist_hit = True
                         print(f" → Átugrom, mert blacklist találat: '{b}' x={t_x}")
                         d.swipe(510, 1700, 155, 1700)  # görget tovább
                         break
+                    else:
+                        print(f"Blacklist találat, de nem a bal oldalon: '{b}' x={t_x}")
                 if blacklist_hit:
                     break
 
