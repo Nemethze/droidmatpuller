@@ -130,7 +130,8 @@ def openAd(maxAds):
                     sleep(random.uniform(2,3))
                     siteVisit()
                     sleep(random.uniform(2,3))
-                    d.swipe(510, 1700, 155, 1700)  # görgetés
+                    d.swipe(510, 1700, 158, 1700)  # görgetés
+                    sleep(random.uniform(1,2))
                 else:
                     print("Nem találtam 'Open in new tab' opciót")
 
