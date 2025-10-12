@@ -212,3 +212,4 @@ while Gstop == False:
         search(k)
         openAd(GmaxAd)
         close()
+    os.system(python droidmatFinalS1.2.py)
