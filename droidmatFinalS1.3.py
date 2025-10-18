@@ -76,6 +76,7 @@ def openAd(maxAds):
         if not bounds:
             print("Nincs érvényes bounds a szponzorált elemhez")
             return
+        global spon_y
         spon_y = (bounds["top"] + bounds["bottom"]) // 2
         print(f"Első 'Szponzorált' elem megtalálva, y={spon_y}")
     if not spon_elems:
