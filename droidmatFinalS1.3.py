@@ -206,6 +206,7 @@ def close():
 def program():
     readinFile()
     d = u.connect(f"127.0.0.1:{Gport}")
+    print(Gstop)
     if Gstop == False:
         for k in Gkeyword:
             airplaneMode(Gtime)
