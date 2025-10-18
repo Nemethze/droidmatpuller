@@ -104,7 +104,6 @@ def openAd(maxAds):
                         continue
                     t_x = (t_bounds["left"] + t_bounds["right"]) // 2
                     t_y = (t_bounds["top"] + t_bounds["bottom"]) // 2
-                    global spon_y
                     if 0 <= t_x <= 450 and spon_y <= t_y <= spon_y+1100:
                         blacklist_hit = True
                         print(f" → Átugrom, mert blacklist találat: '{b}' x={t_x}")
