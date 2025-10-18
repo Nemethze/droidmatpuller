@@ -97,6 +97,7 @@ def openAd(maxAds):
                 all_text_elems = d.xpath(f'//*[contains(@text, "{b}")]').all()
                 for elem in all_text_elems:
                     t_bounds = elem.info.get("bounds", {})
+                    print(t_bounds)
                     if not t_bounds:
                         continue
                     t_x = (t_bounds["left"] + t_bounds["right"]) // 2
