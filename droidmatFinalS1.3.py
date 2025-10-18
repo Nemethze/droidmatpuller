@@ -27,7 +27,7 @@ def readinFile():
     GmaxAd = int(lines[7].strip())
     Gport = int(lines2[1].strip())
     Gsec = int(lines[9].strip())
-    Gstop = bool(lines[13].strip())
+    Gstop = lines[13].strip()
     GcookieList = lines[11].strip().split(", ")
 
 
@@ -207,7 +207,7 @@ def program():
     readinFile()
     d = u.connect(f"127.0.0.1:{Gport}")
     print(Gstop)
-    if Gstop == False:
+    if Gstop == "False":
         for k in Gkeyword:
             airplaneMode(Gtime)
             os.system("curl ifconfig.me")
