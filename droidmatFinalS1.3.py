@@ -12,7 +12,7 @@ Gsec = 0
 Gstop = False
 GcookieList = []
 
-d = u.connect(f"127.0.0.1:{Gport}")
+d = ""
 
 def readinFile():
     os.system("rm config.txt")
