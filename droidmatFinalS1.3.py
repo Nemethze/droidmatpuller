@@ -9,10 +9,8 @@ Gtime = 1
 Gblacklist = []
 GmaxAd = 1
 Gsec = 0
-Gstop = False
+Gstop = "False"
 GcookieList = []
-
-d = ""
 
 def readinFile():
     os.system("rm config.txt")
@@ -205,18 +203,13 @@ def close():
 
 
 
-def program():
+while Gstop == "False":
     readinFile()
     print(Gstop)
-    if Gstop == "False":
-        for k in Gkeyword:
-            d = u.connect(f"127.0.0.1:{Gport}")
-            airplaneMode(Gtime)
-            os.system("curl ifconfig.me")
-            search(k)
-            openAd(GmaxAd)
-            close()
-            program()
-
-program()
-
+    d = u.connect(f"127.0.0.1:{Gport}")
+    for k in Gkeyword:
+        airplaneMode(Gtime)
+        os.system("curl ifconfig.me")
+        search(k)
+        openAd(GmaxAd)
+        close()
