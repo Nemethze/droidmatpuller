@@ -214,7 +214,5 @@ def program():
             openAd(GmaxAd)
             close()
             program()
-    if Gstop == True:
-        break
 
 program()
