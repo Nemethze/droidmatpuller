@@ -12,6 +12,8 @@ Gsec = 0
 Gstop = False
 GcookieList = []
 
+d = u.connect(f"127.0.0.1:{Gport}")
+
 def readinFile():
     os.system("rm config.txt")
     os.system("wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config.txt")
@@ -208,9 +210,9 @@ def program():
     print(Gstop)
     if Gstop == "False":
         for k in Gkeyword:
+            d = u.connect(f"127.0.0.1:{Gport}")
             airplaneMode(Gtime)
             os.system("curl ifconfig.me")
-            d = u.connect(f"127.0.0.1:{Gport}")
             search(k)
             openAd(GmaxAd)
             close()
