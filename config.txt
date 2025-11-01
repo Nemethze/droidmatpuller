@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása
 2
 # keresési szavak ", " elválasztva
-kádparaván
+kádparaván, zuhanyfal 801, zuhanyfal 901, zuhanyfal 701, zuhanyfal 1001, zuhanyfal 1201, zuhanyfal 1401
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu
 # maxmiális hirdetés megnyitás
