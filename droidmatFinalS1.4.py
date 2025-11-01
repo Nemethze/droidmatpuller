@@ -3,6 +3,7 @@ from time import sleep
 import uiautomator2 as u
 import random
 from PIL import Image
+import pytesseract
 
 Gport = 0
 Gkeyword = ""
