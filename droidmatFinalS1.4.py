@@ -88,6 +88,7 @@ def check_double_bar_left(d):
         else:
             print(" {b} nem található a bal oldalon.")
             return False
+    os.remove(schreenshot_path)
 
 
 spon_y = None
