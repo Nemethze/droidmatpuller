@@ -80,8 +80,7 @@ def check_double_bar_left(d):
     # OCR futtatása csak a bal oldalon
     text = pytesseract.image_to_string(left_side, lang="eng+hun")
 
-    for b in Gblacklist
-        # Ellenőrzés, tartalmaz-e '||'
+    for b in Gblacklist:
         if b in text:
             print(" {b} megtalálva a bal oldali 500px sávban.")
             return True
