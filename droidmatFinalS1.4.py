@@ -120,7 +120,7 @@ def openAd(maxAds):
 
 
     while ads_opened < maxAds:
-        if def check_double_bar_left(d) == false:
+        if  check_double_bar_left(d) == false:
 
             # Ha nem blacklistes → long click 500px-el lejjebb, X=150
             click_y = 1300
