@@ -84,6 +84,7 @@ def openAd(maxAds):
                     print(f" → Átugrom, mert blacklist találat: '{b}'")
                     blacklist_hit = True
                     d.click(1010, 2300)
+                    sleep(random.uniform(0.5,1))
                     d.swipe(510, 1700, 155, 1700)
                     skipped_ads += 1
                     break
