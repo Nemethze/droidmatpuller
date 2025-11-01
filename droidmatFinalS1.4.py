@@ -86,6 +86,7 @@ def openAd(maxAds):
                     d.click(1010, 2300)
                     d.swipe(510, 1700, 155, 1700)
                     skipped_ads += 1
+                    break
             if blacklist_hit == False:
                 try:
                     if d(text="Open in new tab").exists(timeout=2):
