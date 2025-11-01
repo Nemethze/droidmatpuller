@@ -92,6 +92,7 @@ def openAd(maxAds):
     while ads_opened < maxAds:
         try:
             # Blacklist ellenőrzés az egész kijelzőn
+            skipped_ads = 0
             blacklist_hit = False
             for b in Gblacklist:
                 if not b:
@@ -107,7 +108,8 @@ def openAd(maxAds):
                     if 0 <= t_x <= 450 and 750 <= t_y <= 1850:
                         blacklist_hit = True
                         print(f" → Átugrom, mert blacklist találat: '{b}' x={t_x}")
-                        d.swipe(510, 1700, 155, 1700)  # görget tovább
+                        d.swipe(510, 1700, 155, 1700)
+                        skipped_blacklist += 1
                         break
                     else:
                         print(f"Blacklist találat, de nem a bal oldalon: '{b}' x={t_x}")
