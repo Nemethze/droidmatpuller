@@ -75,7 +75,7 @@ def openAd(maxAds):
             blacklist_hit = False
             if d(textContains="Továbbiak:").exists(timeout=2):
                 break
-            d.long_click(150, click_y, 2)
+            d.long_click(150, 1300, 2)
             sleep(random.uniform(2,3))
             d.click(540, 620)
             for b in Gblacklist:
@@ -88,7 +88,6 @@ def openAd(maxAds):
                     skipped_blacklist += 1
                     break
             if blacklist_hit == False:
-                click_y = 1300
                 try:
                     if d(text="Open in new tab").exists(timeout=2):
                         d(text="Open in new tab").click()
