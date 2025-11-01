@@ -2,6 +2,7 @@ import os
 from time import sleep
 import uiautomator2 as u
 import random
+from PIL import Image
 
 Gport = 0
 Gkeyword = ""
