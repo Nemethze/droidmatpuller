@@ -120,7 +120,7 @@ def openAd(maxAds):
 
 
     while ads_opened < maxAds:
-        if  check_double_bar_left(d) == false:
+        if check_double_bar_left(d) == false:
 
             # Ha nem blacklistes → long click 500px-el lejjebb, X=150
             click_y = 1300
@@ -148,9 +148,6 @@ def openAd(maxAds):
                 print("Long click hiba:", e)
                 continue
 
-        except Exception as e:
-            print("Hirdetés megnyitási hiba:", e)
-            break
 
     else:
         d.swipe(510, 1700, 155, 1700)
