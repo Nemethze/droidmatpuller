@@ -81,7 +81,7 @@ def openAd(maxAds):
             for b in Gblacklist:
                 if d(textContains=b).exists(timeout=2):
                     blacklist_hit = True
-                    print(f" → Átugrom, mert blacklist találat: '{b}' x={t_x}")
+                    print(f" → Átugrom, mert blacklist találat: '{b}'")
                     blacklist_hit = True
                     d.click(1010, 2300)
                     d.swipe(510, 1700, 155, 1700)
