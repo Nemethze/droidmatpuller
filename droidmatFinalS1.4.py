@@ -105,7 +105,7 @@ def openAd(maxAds):
                         sleep(random.uniform(3,4))
                     else:
                         print("Nem találtam 'Open in new tab' opciót")
-                        skipped_ads += 1
+                        break
 
                 except Exception as e:
                     print("Long click hiba:", e)
