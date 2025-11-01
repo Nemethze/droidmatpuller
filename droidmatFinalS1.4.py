@@ -60,6 +60,36 @@ def search(keyword):
     print("Cookie popup elutasítva (koordináta alapján).")
     sleep(random.uniform(1,2))
 
+def check_double_bar_left(d):
+    """
+    Screenshot + OCR: csak a bal 500 px-en keresi a '||' karaktert.
+    """
+    # Képernyőkép mentése
+    screenshot_path = "chrome_screen.png"
+    d.screenshot(screenshot_path)
+
+    # Kép megnyitása
+    img = Image.open(screenshot_path)
+    width, height = img.size
+
+    # Bal 500 px kivágása (ha a képernyő ennél kisebb, akkor teljes szélesség)
+    crop_width = min(500, width)
+    left_side = img.crop((0, 0, crop_width, height))
+    left_side.save("left_500px.png")
+
+    # OCR futtatása csak a bal oldalon
+    text = pytesseract.image_to_string(left_side, lang="eng+hun")
+
+    for b in Gblacklist
+        # Ellenőrzés, tartalmaz-e '||'
+        if b in text:
+            print(" {b} megtalálva a bal oldali 500px sávban.")
+            return True
+        else:
+            print(" {b} nem található a bal oldalon.")
+            return False
+
+
 spon_y = None
      
 def openAd(maxAds):
@@ -90,36 +120,7 @@ def openAd(maxAds):
 
 
     while ads_opened < maxAds:
-        try:
-            # Blacklist ellenőrzés az egész kijelzőn
-            skipped_items = 0
-            blacklist_hit = False
-            for b in Gblacklist:
-                if not b:
-                    continue
-                all_text_elems = d.xpath(f'//*[contains(@text, "{b}")]').all()
-                for elem in all_text_elems:
-                    t_bounds = elem.info.get("bounds", {})
-                    print(t_bounds)
-                    if not t_bounds:
-                        continue
-                    t_x = (t_bounds["left"] + t_bounds["right"]) // 2
-                    t_y = (t_bounds["top"] + t_bounds["bottom"]) // 2
-                    if 0 <= t_x <= 450 and 750 <= t_y <= 1850:
-                        blacklist_hit = True
-                        print(f" → Átugrom, mert blacklist találat: '{b}' x={t_x}")
-                        skipped_items += 1
-                        d.swipe(510, 1700, 155, 1700)  # görget tovább
-                        break
-                    else:
-                        print(f"Blacklist találat, de nem a bal oldalon: '{b}' x={t_x}")
-                if blacklist_hit:
-                    break
-                if skipped_items == 10:
-                    break
-
-            if blacklist_hit:
-                continue
+        if def check_double_bar_left(d) == false:
 
             # Ha nem blacklistes → long click 500px-el lejjebb, X=150
             click_y = 1300
@@ -151,6 +152,8 @@ def openAd(maxAds):
             print("Hirdetés megnyitási hiba:", e)
             break
 
+    else:
+        d.swipe(510, 1700, 155, 1700)
 
 # Globális flag
 clicked_homelux = False
