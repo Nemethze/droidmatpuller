@@ -120,11 +120,34 @@ def openAd(maxAds):
             break
 
 
-
+# Globális flag
+clicked_homelux = False
 
 def siteVisit():
 
     sleep(random.uniform(3,4))
+
+    global clicked_homelux
+
+    # Ha a weboldal tartalmazza a 'homelux.hu' részt és még nem kattintottunk → egyszeri kattintás
+    try:
+        current_url = d.info.get("currentPackageName", "")
+        try:
+            # egyes uiautomator2 verziókban így kérhető az URL
+            current_url = d.xpath('//android.widget.EditText').get().get_text()
+        except:
+            pass
+
+        if d(text="Adatkezelési beállítások").exists(timeout=2):
+            print("homelux.hu észlelve → egyszeri kattintás (780,800)")
+            try:
+                d.click(780, 800)
+                clicked_homelux = True
+                sleep(random.uniform(1.5,3))
+            except Exception as e:
+                print("Hiba a homelux.hu kattintásnál:", e)
+    except Exception as e:
+        print("Nem sikerült az URL ellenőrzése:", e)
 
 
     # Cookie elfogadás keresése
