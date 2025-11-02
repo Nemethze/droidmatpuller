@@ -74,8 +74,6 @@ def openAd(maxAds):
         try:
             skipped_ads = 0
             blacklist_hit = False
-            if d(textContains="Továbbiak:").exists(timeout=2):
-                break
             d.long_click(150, 1600, 2)
             sleep(random.uniform(2,3))
             d.click(540, 780)
@@ -107,11 +105,12 @@ def openAd(maxAds):
                     else:
                         print("Nem találtam 'Open in new tab' opciót")
                         break
-
+            
                 except Exception as e:
                     print("Long click hiba:", e)
                     continue
-
+            if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
+                break
         except Exception as e:
             print("Hirdetés megnyitási hiba:", e)
             break
