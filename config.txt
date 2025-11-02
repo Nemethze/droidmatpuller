@@ -9,7 +9,7 @@ kádparaván, zuhanyfal 801, zuhanyfal 802, zuhanyfal 803, zuhanyfal 804, zuhany
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
 # cookie feliratok amiket keres ", " elválasztva
-Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása
+Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM
 # a shopping leállítása
 False
 # a kereséses leállítása
