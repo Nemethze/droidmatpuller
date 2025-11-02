@@ -78,13 +78,15 @@ def openAd(maxAds):
             sleep(random.uniform(2,3))
             d.click(540, 780)
             for b in Gblacklist:
-                if d(textContains=b).exists(timeout=2):
+                if d(textContains=b).exists(timeout=0.5):
                     blacklist_hit = True
                     print(f" → Átugrom, mert blacklist találat: '{b}'")
                     blacklist_hit = True
                     d.click(1010, 2300)
                     sleep(random.uniform(0.5,1))
                     d.swipe(510, 1700, 155, 1700)
+                    if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
+                        break
                     skipped_ads += 1
                     break
             if blacklist_hit == False:
@@ -109,8 +111,6 @@ def openAd(maxAds):
                 except Exception as e:
                     print("Long click hiba:", e)
                     continue
-            if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
-                break
         except Exception as e:
             print("Hirdetés megnyitási hiba:", e)
             break
