@@ -70,7 +70,7 @@ def openAd(maxAds):
     skipped_ads = 0
     if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
         sponsored_present = True
-    while ads_opened < maxAds and skipped_ads < 10 and sponsored_present == True:
+    while ads_opened < maxAds and sponsored_present == True:
         try:
             skipped_ads = 0
             blacklist_hit = False
@@ -88,10 +88,15 @@ def openAd(maxAds):
                     if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
                         break
                     skipped_ads += 1
+                    print(f"Átugrott hirdetések száma {skipped_ads}")
                     break
+            if skipped_ads < 5:
+                print("Sok egymás utánni hirdetés")
+                break
             if blacklist_hit == False:
                 try:
                     if d(text="Open in new tab").exists(timeout=2):
+                        skipped_ads = 0
                         d(text="Open in new tab").click()
                         ads_opened += 1
                         print(f"{ads_opened}. hirdetés megnyitva")
