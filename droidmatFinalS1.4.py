@@ -84,13 +84,13 @@ def openAd(maxAds):
                     d.click(1010, 2300)
                     sleep(random.uniform(0.5,1))
                     d.swipe(510, 1700, 155, 1700)
-                    if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
-                        break
                     skipped_ads += 1
                     print(f"Átugrott hirdetések száma {skipped_ads}")
                     break
             if skipped_ads > 5:
                 print("Sok egymás utánni hirdetés")
+                break
+            if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
                 break
             if blacklist_hit == False:
                 try:
