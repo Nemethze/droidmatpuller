@@ -64,12 +64,13 @@ spon_y = None
      
 def openAd(maxAds):
     sleep(2)
-
+    sponsored_present = False
     ads_opened = 0
     last_y = 0     
     skipped_ads = 0
-
-    while ads_opened < maxAds and skipped_ads < 10:
+    if d(textContains="Szponzorált termékek").exists(timeout=2):
+        sponsored_present = True
+    while ads_opened < maxAds and skipped_ads < 10 and sponsored_present == True:
         try:
             skipped_ads = 0
             blacklist_hit = False
