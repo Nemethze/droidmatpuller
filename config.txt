@@ -3,7 +3,7 @@
 # keresési szavak ", " elválasztva
 kádparaván, zuhanyfal 801, zuhanyfal 901, zuhanyfal 701, zuhanyfal 1001, zuhanyfal 1201, zuhanyfal 1401
 # balcklistelt itemek  ", " elválasztva
-||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu
+||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
 5
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
