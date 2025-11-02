@@ -72,7 +72,6 @@ def openAd(maxAds):
         sponsored_present = True
     while ads_opened < maxAds and sponsored_present == True:
         try:
-            skipped_ads = 0
             blacklist_hit = False
             d.long_click(150, 1600, 2)
             sleep(random.uniform(2,3))
