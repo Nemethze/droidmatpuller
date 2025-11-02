@@ -90,7 +90,7 @@ def openAd(maxAds):
                     skipped_ads += 1
                     print(f"Átugrott hirdetések száma {skipped_ads}")
                     break
-            if skipped_ads < 5:
+            if skipped_ads > 5:
                 print("Sok egymás utánni hirdetés")
                 break
             if blacklist_hit == False:
