@@ -179,14 +179,19 @@ def close():
     d.press("home")
     d.shell("am force-stop com.android.chrome")
 
-
-while Gstop == "False":
-    readinFile()
-    print(Gstop)
-    d = u.connect(f"127.0.0.1:{Gport}")
-    for k in Gkeyword:
-        airplaneMode(Gtime)
-        os.system("curl ifconfig.me")
-        search(k)
-        openAd(GmaxAd)
-        close()
+try:   
+    while Gstop == "False":
+        readinFile()
+        print(Gstop)
+        d = u.connect(f"127.0.0.1:{Gport}")
+        for k in Gkeyword:
+            airplaneMode(Gtime)
+            os.system("curl ifconfig.me")
+            search(k)
+            openAd(GmaxAd)
+            close()
+except:
+    d.app_start("com.termux")
+    d.send_keys("python droidmatFinalS1.4.py")
+    
+        
