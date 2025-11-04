@@ -43,7 +43,7 @@ def search(keyword):
 
     d(resourceId="com.android.chrome:id/menu_button").click()
     sleep(random.uniform(1,2))
-    d(text="New Incognito tab").click()
+    d.click(690, 430)
     sleep(random.uniform(2,4))
 
     address_bar = d(className="android.widget.EditText")
