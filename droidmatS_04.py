@@ -15,7 +15,7 @@ GcookieList = []
 def readinFile():
     os.system("rm config_04.txt")
     os.system("wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config_04.txt")
-    with open("config.txt", "r") as file:
+    with open("config_04.txt", "r") as file:
         lines = file.readlines()
     with open("port.txt","r") as file2:
         lines2 = file2.readlines()
