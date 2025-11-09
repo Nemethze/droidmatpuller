@@ -1,0 +1,16 @@
+# repülő mód utánni várakozási idő beállítása másodpercben
+2
+# keresési szavak ", " elválasztva
+kádparaván
+# balcklistelt itemek  ", " elválasztva
+
+# maxmiális hirdetés megnyitás
+5
+# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
+3
+# cookie feliratok amiket keres ", " elválasztva
+Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
+# a shopping leállítása
+False
+# a kereséses leállítása
+False
