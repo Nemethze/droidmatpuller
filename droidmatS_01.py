@@ -13,7 +13,7 @@ Gstop = "False"
 GcookieList = []
 
 def readinFile():
-    os.system("rm config.txt")
+    os.system("rm config_01.txt")
     os.system("wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config_01.txt")
     with open("config_01.txt", "r") as file:
         lines = file.readlines()
