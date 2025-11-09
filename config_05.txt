@@ -1,0 +1,16 @@
+# repülő mód utánni várakozási idő beállítása másodpercben
+2
+# keresési szavak ", " elválasztva
+zuhanykabin 911, zuhanykabin 1012, zuhanykabin 813, zuhanykabin 100x1004, zuhanykabin 705, zuhanykabin 906, zuhanykabin 80x1207, zuhanykabin 908, zuhanykabin 109, zuhanykabin 810, zuhanykabin 817, zuhanykabin 918, zuhanykabin 801, zuhanykabin 802, zuhanykabin 90x903, zuhanykabin 913, zuhanykabin 1014, zuhanykabin 815, zuhanykabin 916
+# balcklistelt itemek  ", " elválasztva
+||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
+# maxmiális hirdetés megnyitás
+5
+# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
+3
+# cookie feliratok amiket keres ", " elválasztva
+Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
+# a shopping leállítása
+False
+# a kereséses leállítása
+False

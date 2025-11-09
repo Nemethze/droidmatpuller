@@ -1,0 +1,16 @@
+# repülő mód utánni várakozási idő beállítása másodpercben
+2
+# keresési szavak ", " elválasztva
+zuhanyfal 801, zuhanyfal 802, zuhanyfal 903, zuhanyfal 1004, zuhanyfal 705, zuhanyfal 906, zuhanyfal 1207, zuhanyfal 908, zuhanyfal 1109, zuhanyfal 810, zuhanyfal 911, zuhanyfal 1012, zuhanyfal 813, zuhanyfal 913, zuhanyfal 1014, zuhanyfal 815, zuhanyfal 916, zuhanyfal 817, zuhanyfal 918, zuhanyfal 1319, zuhanyfal 1420
+# balcklistelt itemek  ", " elválasztva
+||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
+# maxmiális hirdetés megnyitás
+5
+# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
+3
+# cookie feliratok amiket keres ", " elválasztva
+Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
+# a shopping leállítása
+False
+# a kereséses leállítása
+False
