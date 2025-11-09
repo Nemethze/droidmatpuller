@@ -1,4 +1,4 @@
-# repülő mód utánni várakozási idő beállítása
+# repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
 kádparaván, zuhanyfal 801, zuhanyfal 802, zuhanyfal 803, zuhanyfal 804, zuhanyfal 805, zuhanyfal 806, zuhanyfal 807, zuhanyfal 808, zuhanyfal 809, zuhanyfal 810, zuhanyfal 811, zuhanyfal 812, zuhanyfal 813, zuhanyfal 813, zuhanyfal 814, zuhanyfal 815, zuhanyfal 816, zuhanyfal 817, zuhanyfal 818, zuhanyfal 819, zuhanyfal 820
