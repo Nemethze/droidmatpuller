@@ -3,7 +3,7 @@
 # keresési szavak ", " elválasztva
 kádparaván
 # balcklistelt itemek  ", " elválasztva
-
+ρ
 # maxmiális hirdetés megnyitás
 5
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
