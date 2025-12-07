@@ -88,7 +88,7 @@ def openAd(maxAds, sleepTime):
     while ads_opened < maxAds and sponsored_present == True:
         try:
             blacklist_hit = False
-            d.long_click(150, 1700, 2)
+            d.long_click(150, 1650, 2)
             sleep(random.uniform(2,3))
             d.click(540, 780)
             for b in Gblacklist:
