@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-zuhanyajtó 911, zuhanyfal 1012, zuhanyfal 813, zuhanykabin 100x1004, zuhanykabin 705, zuhanykabin 906, zuhanykabin 80x1207, zuhanyfal 908, zuhanyajtó 109, zuhanyfal 810, zuhanyajtó 817, zuhanykabin 918, zuhanyfal 801, zuhanyfal 802, zuhanykabin 90x903, zuhanyajtó 913, zuhanyfal 1014, zuhanyfal 815, zuhanyfal 916
+zuhanyajtó 90, zuhanyfal 100, zuhanyfal 80, zuhanykabin 100x100, zuhanykabin 70, zuhanykabin 90, zuhanykabin 80x120, zuhanyfal 90, zuhanyajtó 100, zuhanyfal 80, zuhanyajtó 80, zuhanykabin 90, zuhanyfal 80, zuhanyfal 80, zuhanykabin 90x90, zuhanyajtó 90, zuhanyfal 100, zuhanyfal 80, zuhanyfal 90
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
