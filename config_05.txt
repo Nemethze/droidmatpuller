@@ -10,7 +10,7 @@ zuhanyajtó 90, zuhanyfal 100, zuhanyfal 80, zuhanykabin 100x100, zuhanykabin 70
 3
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
+# várakozási idő ha szponzorált hirdetés nincs (másodpercben)
+120
 # a shopping leállítása
-False
-# a kereséses leállítása
 False
