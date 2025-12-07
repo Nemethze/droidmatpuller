@@ -80,7 +80,7 @@ def openAd(maxAds, sleepTime):
         sponsored_present = True
     if sponsored_present == False and skipped_sites<2:
         skipped_sites += 1
-        d.swipe(550, 450, 550, 100)
+        d.swipe(550, 450, 550, 1000)
         openAd(GmaxAd, Gshopstop)
     if sponsored_present == False and skipped_sites==2:
         skipped_ads = 0
