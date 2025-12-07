@@ -10,6 +10,8 @@ zuhanyajtó 901, zuhanyajtó 1002, zuhanyajtó 805, zuhanyajtó 907, zuhanyajtó
 3
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
+# várakozási idő ha szponzorált hirdetés nincs (másodpercben)
+120
 # a shopping leállítása
 False
 # a kereséses leállítása
