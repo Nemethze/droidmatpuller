@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-zuhanyajtó 901, zuhanyajtó 1002, zuhanyajtó 805, zuhanyajtó 907, zuhanyajtó 703, zuhanyajtó 1109, zuhanyajtó 1207, zuhanyajtó 904, zuhanyajtó 806, zuhanyajtó 908, zuhanyajtó 1302, zuhanyajtó 1401
+zuhanyajtó 90, zuhanyajtó 100, zuhanyajtó 80, zuhanyajtó 90, zuhanyajtó 70, zuhanyajtó 110, zuhanyajtó 120, zuhanyajtó 90, zuhanyajtó 80, zuhanyajtó 90, zuhanyajtó 130, zuhanyajtó 140
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
