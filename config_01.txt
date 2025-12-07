@@ -14,5 +14,3 @@ Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes
 120
 # a shopping leállítása
 False
-# a kereséses leállítása
-False
