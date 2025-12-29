@@ -40,16 +40,15 @@ def airplaneMode(time):
     sleep(time)
     os.system("sudo settings put global airplane_mode_on 0")
 
-
 def search(keyword):
     d.app_start("com.android.chrome")
     sleep(random.uniform(2,4))
     d.click(50, 300)
     sleep(random.uniform(0.5,1))
 
-    d(resourceId="com.android.chrome:id/menu_button").click()
+    d.click(1020, 185)
     sleep(random.uniform(1,2))
-    d(text="New Incognito tab").click()
+    d.click(700, 500)
     sleep(random.uniform(2,4))
 
     address_bar = d(className="android.widget.EditText")
