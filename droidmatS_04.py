@@ -49,7 +49,7 @@ def search(keyword):
 
     d.click(1020, 185)
     sleep(random.uniform(1,2))
-    d.click(700, 500)
+    d(text="New Incognito tab").click()
     sleep(random.uniform(2,4))
 
     address_bar = d(className="android.widget.EditText")
