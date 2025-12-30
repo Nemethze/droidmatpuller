@@ -12,24 +12,31 @@ Gsec = 0
 Gstop = "False"
 GcookieList = []
 
+Gdevice = int(input("Kérem a device id-t (ha egyszámjegyű, akkor 0X): "))
+
 def readinFile():
-    os.system("rm config.txt")
-    os.system("wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config.txt")
-    with open("config.txt", "r") as file:
-        lines = file.readlines()
+    global Gdevice
+    os.system(f"rm config_{Gdevice}.txt")
+    os.system(f"wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config_{Gdevice}.txt")
+    try:
+        with open(f"config_{Gdevice}.txt", "r") as file:
+            lines = file.readlines()
+    except:
+        with open("config.txt", "r") as file:
+            lines = file.readlines()
     with open("port.txt","r") as file2:
         lines2 = file2.readlines()
         
-    global Gtime, Gkeyword, Gblacklist, GmaxAd, Gport, Gsec, Gstop, GcookieList
+    global Gtime, Gkeyword, Gblacklist, GmaxAd, Gport, Gsec, Gstop, GcookieList, Gshopstop
     Gtime = int(lines[1].strip())
     Gkeyword = lines[3].strip().split(", ")
     Gblacklist = lines[5].strip().split(", ")
     GmaxAd = int(lines[7].strip())
     Gport = int(lines2[1].strip())
     Gsec = int(lines[9].strip())
-    Gstop = lines[13].strip()
+    Gstop = lines[15].strip()
     GcookieList = lines[11].strip().split(", ")
-
+    Gshopstop = int(lines[13].strip())
 
 def airplaneMode(time):
     os.system("sudo settings put global airplane_mode_on 1")
@@ -43,7 +50,7 @@ def search(keyword):
     d.click(50, 300)
     sleep(random.uniform(0.5,1))
 
-    d(resourceId="com.android.chrome:id/menu_button").click()
+    d.click(1020, 185)
     sleep(random.uniform(1,2))
     d(text="New Incognito tab").click()
     sleep(random.uniform(2,4))
@@ -63,19 +70,28 @@ def search(keyword):
     sleep(random.uniform(1,2))
 
 spon_y = None
-     
-def openAd(maxAds):
+skipped_sites = 0
+
+def openAd(maxAds, sleepTime):
     sleep(2)
     sponsored_present = False
     ads_opened = 0
     last_y = 0     
     skipped_ads = 0
+    global skipped_sites
     if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
         sponsored_present = True
+    if sponsored_present == False and skipped_sites<2:
+        skipped_sites += 1
+        d.swipe(550, 450, 550, 1000)
+        openAd(GmaxAd, Gshopstop)
+    if sponsored_present == False and skipped_sites==2:
+        skipped_ads = 0
+        sleep(sleepTime)
     while ads_opened < maxAds and sponsored_present == True:
         try:
             blacklist_hit = False
-            d.long_click(150, 1600, 2)
+            d.long_click(150, 1650, 2)
             sleep(random.uniform(2,3))
             d.click(540, 780)
             for b in Gblacklist:
@@ -190,5 +206,6 @@ while Gstop == "False":
         airplaneMode(Gtime)
         os.system("curl ifconfig.me")
         search(k)
-        openAd(GmaxAd)
+        openAd(GmaxAd, Gshopstop)
         close()
+        
