@@ -52,8 +52,7 @@ def search(keyword):
     d.click(700, 420)
     sleep(random.uniform(2,4))
 
-    address_bar = d(className="android.widget.EditText")
-    address_bar.click()
+    d.click(580, 180)
     d.send_keys(keyword)
     d.press("enter")
     sleep(random.uniform(3,5))
