@@ -74,15 +74,18 @@ def openAd(maxAds, sleepTime):
     ads_opened = 0
     last_y = 0     
     skipped_ads = 0
-    global skipped_sites
-    if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
-        sponsored_present = True
-    if sponsored_present == False and skipped_sites<2:
-        skipped_sites += 1
-        d.swipe(550, 450, 550, 1000)
+    while :
+        if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
+            sponsored_present = True
+            break
+        if sponsored_present == False and skipped_sites<2:
+            skipped_sites += 1
+            d.swipe(550, 450, 550, 1000)
     if sponsored_present == False and skipped_sites==2:
         skipped_ads = 0
+        print(f"Timeout {sleepTime} mp-re")
         sleep(sleepTime)
+        print(f"Tovább {sleepTime} mp-cel később")
     if sponsored_present == True:
         while ads_opened < maxAds and sponsored_present == True:
             try:
