@@ -84,6 +84,7 @@ def openAd(maxAds, sleepTime):
     if sponsored_present == False and skipped_sites==2:
         skipped_ads = 0
         sleep(sleepTime)
+        print(f"Letelt {sleepTime} mp")
     while ads_opened < maxAds and sponsored_present == True:
         try:
             blacklist_hit = False
