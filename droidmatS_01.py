@@ -80,58 +80,58 @@ def openAd(maxAds, sleepTime):
     if sponsored_present == False and skipped_sites<2:
         skipped_sites += 1
         d.swipe(550, 450, 550, 1000)
-        openAd(GmaxAd, Gshopstop)
     if sponsored_present == False and skipped_sites==2:
         skipped_ads = 0
         sleep(sleepTime)
-    while ads_opened < maxAds and sponsored_present == True:
-        try:
-            blacklist_hit = False
-            d.long_click(150, 1650, 2)
-            sleep(random.uniform(2,3))
-            d.click(540, 780)
-            for b in Gblacklist:
-                if d(textContains=b).exists(timeout=0.5):
-                    blacklist_hit = True
-                    print(f" → Átugrom, mert blacklist találat: '{b}'")
-                    blacklist_hit = True
-                    d.click(1010, 2300)
-                    sleep(random.uniform(0.5,1))
-                    d.swipe(510, 1700, 155, 1700)
-                    skipped_ads += 1
-                    print(f"Átugrott hirdetések száma {skipped_ads}")
-                    break
-            if skipped_ads > 5:
-                print("Sok egymás utánni hirdetés")
-                break
-            if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
-                break
-            if blacklist_hit == False:
-                try:
-                    if d(text="Open in new tab").exists(timeout=2):
-                        skipped_ads = 0
-                        d(text="Open in new tab").click()
-                        ads_opened += 1
-                        print(f"{ads_opened}. hirdetés megnyitva")
-                        sleep(random.uniform(2,3))
-                        d.click(900, 150)  # új fülre váltás
-                        sleep(random.uniform(2,3))
-                        d.click(830, 680)  # első katt az oldalon
-                        sleep(random.uniform(2,3))
-                        siteVisit()
-                        sleep(random.uniform(2,3))
-                        d.swipe(510, 1700, 163, 1700)  # görgetés
-                        sleep(random.uniform(3,4))
-                    else:
-                        print("Nem találtam 'Open in new tab' opciót")
+    if sponsored_present == True:
+        while ads_opened < maxAds and sponsored_present == True:
+            try:
+                blacklist_hit = False
+                d.long_click(150, 1650, 2)
+                sleep(random.uniform(2,3))
+                d.click(540, 780)
+                for b in Gblacklist:
+                    if d(textContains=b).exists(timeout=0.5):
+                        blacklist_hit = True
+                        print(f" → Átugrom, mert blacklist találat: '{b}'")
+                        blacklist_hit = True
+                        d.click(1010, 2300)
+                        sleep(random.uniform(0.5,1))
+                        d.swipe(510, 1700, 155, 1700)
+                        skipped_ads += 1
+                        print(f"Átugrott hirdetések száma {skipped_ads}")
                         break
-            
-                except Exception as e:
-                    print("Long click hiba:", e)
-                    continue
-        except Exception as e:
-            print("Hirdetés megnyitási hiba:", e)
-            break
+                if skipped_ads > 5:
+                    print("Sok egymás utánni hirdetés")
+                    break
+                if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
+                    break
+                if blacklist_hit == False:
+                    try:
+                        if d(text="Open in new tab").exists(timeout=2):
+                            skipped_ads = 0
+                            d(text="Open in new tab").click()
+                            ads_opened += 1
+                            print(f"{ads_opened}. hirdetés megnyitva")
+                            sleep(random.uniform(2,3))
+                            d.click(900, 150)  # új fülre váltás
+                            sleep(random.uniform(2,3))
+                            d.click(830, 680)  # első katt az oldalon
+                            sleep(random.uniform(2,3))
+                            siteVisit()
+                            sleep(random.uniform(2,3))
+                            d.swipe(510, 1700, 163, 1700)  # görgetés
+                            sleep(random.uniform(3,4))
+                        else:
+                            print("Nem találtam 'Open in new tab' opciót")
+                            break
+                
+                    except Exception as e:
+                        print("Long click hiba:", e)
+                        continue
+            except Exception as e:
+                print("Hirdetés megnyitási hiba:", e)
+                break
 
 
 # Globális flag
