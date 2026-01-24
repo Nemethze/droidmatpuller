@@ -86,7 +86,7 @@ def openAd(maxAds, sleepTime):
         skipped_ads = 0
         print(f"Timeout {sleepTime} mp-re")
         sleep(sleepTime)
-        print(f"Tovább {sleepTime} mp-cel később")
+        print(f"Letelt {sleepTime} mp")
     if sponsored_present == True:
         while ads_opened < maxAds and sponsored_present == True:
             try:
