@@ -83,6 +83,7 @@ def openAd(maxAds, sleepTime):
         openAd(GmaxAd, Gshopstop)
     if sponsored_present == False and skipped_sites==2:
         skipped_ads = 0
+        print(f"Timer elindult {sleepTime} mp-re")
         sleep(sleepTime)
         print(f"Letelt {sleepTime} mp")
     while ads_opened < maxAds and sponsored_present == True:
