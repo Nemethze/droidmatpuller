@@ -75,7 +75,7 @@ def openAd(maxAds, sleepTime):
     last_y = 0     
     skipped_ads = 0
     skipped_sites = 0
-    while skipped_sites < 2:
+    while skipped_sites <= 2:
         if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
             sponsored_present = True
             break
