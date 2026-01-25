@@ -82,11 +82,12 @@ def openAd(maxAds, sleepTime):
         if sponsored_present == False and skipped_sites<2:
             skipped_sites += 1
             d.swipe(550, 450, 550, 1000)
-    if sponsored_present == False and skipped_sites==2:
-        skipped_ads = 0
-        print(f"Timeout {sleepTime} mp-re")
-        sleep(sleepTime)
-        print(f"Letelt {sleepTime} mp")
+        if sponsored_present == False and skipped_sites==2:
+            print(f"Timeout {sleepTime} mp-re")
+            sleep(sleepTime)
+            print(f"Letelt {sleepTime} mp")
+            skipped_ads = 0
+            break
     if sponsored_present == True:
         while ads_opened < maxAds and sponsored_present == True:
             try:
