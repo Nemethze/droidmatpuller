@@ -1,0 +1,16 @@
+# repülő mód utánni várakozási idő beállítása másodpercben
+2
+# keresési szavak ", " elválasztva
+zuhanyajtó 110, zuhanyfal 100, zuhanyajtó 60, zuhanyfal 140, zuhanyfal 120, zuhanyfal 130, zuhanykabin 70, zuhanyfal 90, zuhanyfal 80
+# balcklistelt itemek  ", " elválasztva
+||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
+# maxmiális hirdetés megnyitás
+5
+# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
+3
+# cookie feliratok amiket keres ", " elválasztva
+Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
+# várakozási idő ha szponzorált hirdetés nincs (másodpercben)
+120
+# a shopping leállítása
+False
