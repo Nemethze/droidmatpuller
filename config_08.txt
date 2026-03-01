@@ -1,7 +1,7 @@
-# repülő mód utánni várakozási idő beállítása másodpercben
+cm# repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-pereți de duș 110x200, cabine de dușin 70x90, pereți de duș 70x190, cabine de dușin 90x80, pereți de duș 100x190, cabine de duș 90x120, pereți de duș 80 cm, pereți de dușin 120 cm
+pereți de duș 110x200, pereți de duș 70x190, cabine de dușin 90x80, pereți de duș 100x190cm, cabine de duș 90x120, pereți de duș 80 cm, pereți de dușin 120 cm
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
