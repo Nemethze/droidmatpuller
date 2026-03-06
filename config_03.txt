@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-laminált padló 601x1509
+laminált 1306, laminált 1101, laminált 804, laminált 1209, laminált 1005, laminált 701, laminált 904, laminált 1409, laminált 607
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
