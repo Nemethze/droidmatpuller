@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-zuhanykabin
+zuhanyfal 1203, zuhanyfal 1401, zuhanyfal 1007, zuhanyfal 607, zuhanykabin 806, zuhanyfal 1308, zuhanyfal 908, zuhanyfal 704, zuhanykabin 1104
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
