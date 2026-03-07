@@ -44,24 +44,24 @@ def airplaneMode(time):
 def search(keyword):
     d.app_start("com.android.chrome")
     sleep(random.uniform(2,4))
-    d.click(50, 300)
+    d.click(50, 200)
     sleep(random.uniform(0.5,1))
 
-    d.click(1020, 185)
+    d.click(680, 120)
     sleep(random.uniform(1,2))
-    d.click(700, 420)
+    d.click(440, 320)
     sleep(random.uniform(2,4))
 
-    d.click(580, 180)
+    d.click(360, 140)
     d.send_keys(keyword)
     d.press("enter")
     sleep(random.uniform(3,5))
 
     for _ in range(2):
-        d.swipe(500, 1700, 500, 800)  
+        d.swipe(360, 1100, 360, 360)  
         sleep(random.uniform(1,2))
 
-    d.click(540, 1925)
+    d.click(360, 1280)
     print("Cookie popup elutasítva (koordináta alapján).")
     sleep(random.uniform(1,2))
 
@@ -76,12 +76,12 @@ def openAd(maxAds, sleepTime):
     skipped_ads = 0
     skipped_sites = 0
     while skipped_sites <= 2:
-        if d(textContains="Produse sponsorizate").exists(timeout=2) or d(textContains="sponsorizate").exists(timeout=2):
+        if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
             sponsored_present = True
             break
         if sponsored_present == False and skipped_sites<2:
             skipped_sites += 1
-            d.swipe(550, 450, 550, 1000)
+            d.swipe(360, 250, 360, 520)
         if sponsored_present == False and skipped_sites==2:
             print(f"Timeout {sleepTime} mp-re")
             sleep(sleepTime)
@@ -92,24 +92,24 @@ def openAd(maxAds, sleepTime):
         while ads_opened < maxAds and sponsored_present == True:
             try:
                 blacklist_hit = False
-                d.long_click(150, 1650, 2)
+                d.long_click(70, 1240, 2)
                 sleep(random.uniform(2,3))
-                d.click(540, 780)
+                d.click(360, 500)
                 for b in Gblacklist:
                     if d(textContains=b).exists(timeout=0.5):
                         blacklist_hit = True
                         print(f" → Átugrom, mert blacklist találat: '{b}'")
                         blacklist_hit = True
-                        d.click(1010, 2300)
+                        d.click(650, 1470)
                         sleep(random.uniform(0.5,1))
-                        d.swipe(510, 1700, 155, 1700)
+                        d.swipe(360, 1280, 50, 1280)
                         skipped_ads += 1
                         print(f"Átugrott hirdetések száma {skipped_ads}")
                         break
                 if skipped_ads > 5:
                     print("Sok egymás utánni hirdetés")
                     break
-                if d(textContains="Accesează").exists(timeout=2) or d(textContains="Mai multe de la").exists(timeout=2):
+                if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
                     break
                 if blacklist_hit == False:
                     try:
@@ -119,13 +119,13 @@ def openAd(maxAds, sleepTime):
                             ads_opened += 1
                             print(f"{ads_opened}. hirdetés megnyitva")
                             sleep(random.uniform(2,3))
-                            d.click(900, 150)  # új fülre váltás
+                            d.click(590, 100)  # új fülre váltás
                             sleep(random.uniform(2,3))
-                            d.click(830, 680)  # első katt az oldalon
+                            d.click(500, 500)  # első katt az oldalon
                             sleep(random.uniform(2,3))
                             siteVisit()
                             sleep(random.uniform(2,3))
-                            d.swipe(510, 1700, 163, 1700)  # görgetés
+                            d.swipe(360, 1280, 50, 1280)  # görgetés
                             sleep(random.uniform(3,4))
                         else:
                             print("Nem találtam 'Open in new tab' opciót")
@@ -160,7 +160,7 @@ def siteVisit():
         if d(text="Adatkezelési beállítások").exists(timeout=2):
             print("homelux.hu észlelve → egyszeri kattintás (780,800)")
             try:
-                d.click(780, 800)
+                d.click(500, 570)
                 clicked_homelux = True
                 sleep(random.uniform(1.5,3))
             except Exception as e:
@@ -186,7 +186,7 @@ def siteVisit():
     # Görgetés vagy várakozás
     if Gsec > 0:
         for i in range(Gsec):
-            d.swipe(540, 2000, 540, 370)
+            d.swipe(360, 1330, 360, 280)
             sleep(random.uniform(0.5,2))
     else:
         sleep(random.uniform(2,5))
