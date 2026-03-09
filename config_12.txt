@@ -3,7 +3,7 @@
 # keresési szavak ", " elválasztva
 cabine de duș 80x72, cabine de duș 90x81, cabine de duș 80x76, cabine de duș 80x62, cabine de duș 80x93, cabine de duș 100x108, cabine de duș 110x107, cabine de duș 120x94, cabine de duș 80x76, cabine de duș 80x88, cabine de duș 100x114, cabine de duș 100x89, cabine de duș 80x63, cabine de duș 90x99, cabine de duș 90x67, cabine de duș 70x83, cabine de duș 100x115, cabine de duș 80x98, cabine de duș 100x121, cabine de duș 80x78, cabine de duș 80x87, cabine de duș 90x86
 # balcklistelt itemek  ", " elválasztva
-||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
+||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
 5
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
