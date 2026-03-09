@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Zuhanykabin 80x84, Zuhanykabin 80x86, Zuhanykabin 80x87, Zuhanykabin 90x93, Zuhanykabin 80x82, Zuhanykabin 100x104, Zuhanykabin 100x111, Zuhanykabin 80x87, Zuhanykabin 90x88, Zuhanykabin 90x99, Zuhanykabin 70x75, Zuhanykabin 100x103, Zuhanykabin 80x88, Zuhanykabin 100x103, Zuhanykabin 90x81, Zuhanykabin 80x76
+Zuhanykabin 80x84, Zuhanykabin 80x86, Zuhanykabin 80x87, Zuhanykabin 90x93, Zuhanykabin 80x82, Zuhanykabin 100x104, Zuhanykabin 100x111, Zuhanykabin 80x89, Zuhanykabin 90x88, Zuhanykabin 90x99, Zuhanykabin 70x75, Zuhanykabin 100x103, Zuhanykabin 80x88, Zuhanykabin 100x103, Zuhanykabin 90x81, Zuhanykabin 80x76, Zuhanykabin 80x91, Zuhanykabin 80x94, Zuhanykabin 80x73, Zuhanykabin 100x98, Zuhanykabin 110x85, Zuhanykabin 120x101
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
