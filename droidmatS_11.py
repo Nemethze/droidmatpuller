@@ -109,7 +109,7 @@ def openAd(maxAds, sleepTime):
                 if skipped_ads > 5:
                     print("Sok egymás utánni hirdetés")
                     break
-                if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
+                if d(textContains="Accesează").exists(timeout=2) or d(textContains="Mai multe de la").exists(timeout=2):
                     break
                 if blacklist_hit == False:
                     try:
