@@ -44,10 +44,10 @@ def airplaneMode(time):
 def search(keyword):
     d.app_start("com.android.chrome")
     sleep(random.uniform(2,4))
-    d.click(50, 200)
+    d.click(200, 200)
     sleep(random.uniform(0.5,1))
 
-    d.click(680, 120)
+    d.click(700, 150)
     sleep(random.uniform(1,2))
     d.click(440, 320)
     sleep(random.uniform(2,4))
