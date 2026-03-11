@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Zuhanypanel 104, zuhanypanel 809, Zuhanypanel 302, Zuhanypanel 707, Zuhanypanel 91, Zuhanypanel 112, Zuhanypanel 81, zuhanypanel 605, Zuhanypanel 507, Zuhanypanel 308, zuhanypabel 101, zuhanypanel 808, Zuhanypanel 305, Zuhanypanel 607, Zuhanypanel 105, Zuhanypanel 109, Zuhanypanel 91, zuhanypanel 806, Zuhanypanel 407, Zuhanypanel 505
+Zuhanypanel 706, zuhanypanel 802, Zuhanypanel 608, Zuhanypanel 908, Zuhanypanel 91, Zuhanypanel 112, Zuhanypanel 81, zuhanypanel 605, Zuhanypanel 507, Zuhanypanel 308, zuhanypabel 101, zuhanypanel 808, Zuhanypanel 305, Zuhanypanel 607, Zuhanypanel 105, Zuhanypanel 109, Zuhanypanel 91, zuhanypanel 806, Zuhanypanel 407, Zuhanypanel 505
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
