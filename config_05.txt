@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Zuhanyfal 80 cm x 200 cm, Zuhanyfal 110 cm x 190 cm, Zuhanyfal 140 cm x 200 cm, Zuhanyfal 120 cm x 190 cm, Zuhanyfal 130 cm x 190 cm, Zuhanyfal 110 cm x 200 cm, Zuhanyfal 100 cm x 200 cm, Zuhanyfal 90 cm x 190 cm, Zuhanyfal 100 cm x 190 cm, Zuhanyfal 140 cm x 190 cm, Zuhanyfal 90 cm x 200 cm, Zuhanyfal 150 cm x 190 cm, Zuhanyfal 160 cm x 190 cm, Zuhanyfal 70 cm x 200 cm, Zuhanyfal 80 cm x 200 cm, Zuhanyfal 70 cm x 190 cm, Zuhanyfal 120 cm x 200 cm, Zuhanyfal 130 cm x 200 cm, Zuhanyfal 150 cm x 200 cm, Zuhanyfal 80 cm x 190 cm
+Zuhanyfal 80, Zuhanyfal 80 cm x 200 cm, Zuhanyfal 110 cm x 190 cm, Zuhanyfal 140 cm x 200 cm, Zuhanyfal 120 cm x 190 cm, Zuhanyfal 130 cm x 190 cm, Zuhanyfal 110 cm x 200 cm, Zuhanyfal 100 cm x 200 cm, Zuhanyfal 90 cm x 190 cm, Zuhanyfal 100 cm x 190 cm, Zuhanyfal 140 cm x 190 cm, Zuhanyfal 90 cm x 200 cm, Zuhanyfal 150 cm x 190 cm, Zuhanyfal 160 cm x 190 cm, Zuhanyfal 70 cm x 200 cm, Zuhanyfal 80 cm x 200 cm, Zuhanyfal 70 cm x 190 cm, Zuhanyfal 120 cm x 200 cm, Zuhanyfal 130 cm x 200 cm, Zuhanyfal 150 cm x 200 cm, Zuhanyfal 80 cm x 190 cm
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
