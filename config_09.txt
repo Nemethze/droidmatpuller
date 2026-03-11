@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-pereți de duș 100 cm x 200 cm, pereți de duș 80 cm x 200 cm, pereți de dușin 120 cm x 190 cm, pereți de duș 70cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 90 cm x 200 cm, pereți de duș 80 cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 90 cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 100 cm x 200 cm, pereți de duș 120 cm x 200 cm, pereți de duș 90 cm x 190 cm, pereți de duș 90 cm x 200 cm, pereți de duș 100 cm x 190 cm, pereți de duș 70 cm x 200 cm
+pereți de duș 90cm, pereți de duș 100 cm x 200 cm, pereți de duș 80 cm x 200 cm, pereți de dușin 120 cm x 190 cm, pereți de duș 70cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 90 cm x 200 cm, pereți de duș 80 cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 90 cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 100 cm x 200 cm, pereți de duș 120 cm x 200 cm, pereți de duș 90 cm x 190 cm, pereți de duș 90 cm x 200 cm, pereți de duș 100 cm x 190 cm, pereți de duș 70 cm x 200 cm
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
