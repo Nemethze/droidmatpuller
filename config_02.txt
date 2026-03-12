@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-zuhanykabin 80x90, zuhanykabin 90x70, zuhanykabin 100x80, zuhanykabin 70x120, zuhanykabin 120x80, zuhanykabin 80x100, zuhanykabin 70x70, zuhanykabin 70x90, zuhanykabin 100x110, zuhanykabin 120x120, zuhanykabin 120x100, zuhanykabin 90x110, zuhanykabin 110x70, zuhanykabin 110x90, zuhanykabin 100x70, zuhanykabin 100x120, zuhanykabin 80x120, zuhanykabin 110x110, zuhanykabin 100x100, zuhanykabin 110x80, zuhanykabin 90x120, zuhanykabin 100x90, zuhanykabin 80x80, zuhanykabin 70x100, zuhanykabin 70x80, zuhanykabin 70x110, zuhanykabin 90x80, zuhanykabin 120x70, zuhanykabin 120x90, zuhanykabin 110x100, zuhanykabin 90x90, zuhanykabin 90x100, zuhanykabin 110x120, zuhanykabin 80x110, zuhanykabin 80x70, zuhanykabin 120x110
+zuhanykabin 90x90, zuhanykabin 90x100, zuhanykabin 110x120, zuhanykabin 80x110, zuhanykabin 80x90, zuhanykabin 90x70, zuhanykabin 100x80, zuhanykabin 70x120, zuhanykabin 120x80, zuhanykabin 80x100, zuhanykabin 70x70, zuhanykabin 70x90, zuhanykabin 100x110, zuhanykabin 120x120, zuhanykabin 120x100, zuhanykabin 90x110, zuhanykabin 110x70, zuhanykabin 110x90, zuhanykabin 100x70, zuhanykabin 100x120, zuhanykabin 80x120, zuhanykabin 110x110, zuhanykabin 100x100, zuhanykabin 110x80, zuhanykabin 90x120, zuhanykabin 100x90, zuhanykabin 80x80, zuhanykabin 70x100, zuhanykabin 70x80, zuhanykabin 70x110, zuhanykabin 90x80, zuhanykabin 120x70, zuhanykabin 120x90, zuhanykabin 110x100,  zuhanykabin 80x70, zuhanykabin 120x110
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
