@@ -102,7 +102,6 @@ def openAd(maxAds, sleepTime):
         sleep(sleepTime)
         print(f"Letelt {sleepTime} mp")
         skipped_ads = 0
-        break
     if sponsored_present == True:
         while ads_opened < maxAds and sponsored_present == True:
             try:
