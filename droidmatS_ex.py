@@ -82,7 +82,7 @@ def openAd(maxAds, sleepTime):
         if sponsored_present == False:
             d.swipe(550, 450, 550, 1000)
     if sponsored_present == False:
-        d.click(None, None)
+        d(text=Képek"").click()
         for i in range(3):
             if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                 sponsored_present = True
@@ -90,7 +90,7 @@ def openAd(maxAds, sleepTime):
             if sponsored_present == False:
                 d.swipe(550, 450, 550, 1000)
     if sponsored_present == False:
-        d.click(None, None)
+        d(text="Termékek").click()
         for i in range(3):
             if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                 sponsored_present = True
