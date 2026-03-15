@@ -65,44 +65,9 @@ def search(keyword):
     print("Cookie popup elutasítva (koordináta alapján).")
     sleep(random.uniform(1,2))
 
-spon_y = None
-skipped_sites = 0
 
-def openAd(maxAds, sleepTime):
-    sleep(2)
-    sponsored_present = False
-    ads_opened = 0
-    last_y = 0     
-    skipped_ads = 0
-    skipped_sites = 0
-    for i in range(3):
-        if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
-            sponsored_present = True
-            break
-        if sponsored_present == False:
-            d.swipe(550, 450, 550, 1000)
-    if sponsored_present == False:
-        d(text="Képek").click()
-        for i in range(3):
-            if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
-                sponsored_present = True
-                break
-            if sponsored_present == False:
-                d.swipe(550, 450, 550, 1000)
-    if sponsored_present == False:
-        d(text="Termékek").click()
-        for i in range(3):
-            if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
-                sponsored_present = True
-                break
-            if sponsored_present == False:
-                d.swipe(550, 450, 550, 1000)
-    if sponsored_present == False:
-        print(f"Timeout {sleepTime} mp-re")
-        sleep(sleepTime)
-        print(f"Letelt {sleepTime} mp")
-        skipped_ads = 0
-    if sponsored_present == True:
+def clickInstr(sp_pres):
+    if sp_pres == True:
         while ads_opened < maxAds and sponsored_present == True:
             try:
                 blacklist_hit = False
@@ -153,13 +118,63 @@ def openAd(maxAds, sleepTime):
                 break
 
 
+
+def openAd(maxAds, sleepTime):
+    sleep(2)
+    sponsored_present = False
+    ads_opened = 0  
+    skipped_ads = 0
+    skipped_sites = 0
+    skipped_gpages = 0
+    try:
+        for i in range(3):
+            if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
+                sponsored_present = True
+                break
+                d.swipe(550, 450, 550, 1000)
+        if sponsored_present == False:
+            skipped_gpages += 1
+        clickInstr(sponsored_present)
+    except:
+        print("Valami hiba történt az első lapon (  ¯\_(ツ)_/¯  )")
+    try:
+        d(text="Képek").click()
+        sponsored_present = False
+        for i in range(3):
+            if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
+                sponsored_present = True
+                break
+                d.swipe(550, 450, 550, 1000)
+        if sponsored_present == False:
+            skipped_gpages += 1
+        clickInstr(sponsored_present)
+    except:
+        print("'Képek' fül nem található")
+    try:
+        d(text="Termékek").click()
+        sponsored_present = False
+        for i in range(3):
+            if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
+                sponsored_present = True
+                break
+                d.swipe(550, 450, 550, 1000)
+        if sponsored_present == False:
+            skipped_gpages += 1
+        clickInstr(sponsored_present)
+    except:
+        print("'Termékek' fül nem található")
+    if skipped_gpages == 3:
+        print(f"Timeout {sleepTime} mp-re")
+        sleep(sleepTime)
+        print(f"Letelt {sleepTime} mp")
+        skipped_ads = 0
+
+
 # Globális flag
 clicked_homelux = False
 
 def siteVisit():
-
     sleep(random.uniform(3,4))
-
     global clicked_homelux
 
     # Ha a weboldal tartalmazza a 'homelux.hu' részt és még nem kattintottunk → egyszeri kattintás
