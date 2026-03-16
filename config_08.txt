@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-cabină de duș 80x80, cabină de duș 90x90, cabină de duș 100x100, cabină de duș 120x80, cabină de duș dreptunghiulară, cabină de duș pătrată, cabină de duș walk in, cabină de duș cu uși glisante, cabină de duș cu uși batante, cabină de duș semicirculară, cabină de duș fără cadă, cabină pereți de duș 90 cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 90 cm x 200 cm, pereți de duș 80 cm x 190 cm, pereți de duș 100 cm x 200 cm, pereți de duș 80 cm x 200 cm, pereți de dușin 120 cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 90 cm x 200 cm, pereți de duș 100 cm x 190 cm, pereți de duș 70 cm x 200 cm, pereți de duș 90 cm x 190 cm, pereți de duș 80 cm x 190 cm, pereți de duș 100 cm x 200 cm, pereți de duș 120 cm x 200 cm, pereți de duș 70cm x 190 cm
+cabină de duș cu cădiță praktiker, cabină de duș cu cădiță 90x90 curbată, cabină de duș cu cădiță 90x90 pătrată, cabină de duș cu cădiță 90x100, cabină de duș cu cădiță 90x110, cabină de duș cu cădiță, ușă cabină de duș, cabină de duș 90x90, cabină de duș 80x80, cabină de duș obi, cabină de duș fără cădiță, cabină de duș cu cădiță 90x90, cabină de duș cu cădiță 80x80, cabină de duș cu cădiță 100x100
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare, roishopper, Roishopper
 # maxmiális hirdetés megnyitás
