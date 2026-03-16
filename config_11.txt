@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-panel de duș 901, panel de duș 608, panel de duș 109, panel de duș 607, panel de duș 105, panel de duș 109, panel de duș 91, panel de duș 806, panel de duș 407, panel de duș 505, panel de duș 701, panel de duș 802, panel de duș 315, panel de duș 307, panel de duș 103, panel de duș 119, panel de duș 101, panel de duș 906, panel de duș 707, panel de duș 605, panel de duș 101, panel de duș 808, panel de duș 305, panel de duș 607, panel de duș 105, panel de duș 109, panel de duș 91, panel de duș 806, panel de duș 407, panel de duș 505, panel de duș 701, panel de duș 802, panel de duș 315, panel de duș 307, panel de duș 103, panel de duș 119, panel de duș 101, panel de duș 906, panel de duș 707, panel de duș 605
+Perete duș 120x200, Perete duș 130, Perete duș 80x190, Perete de duș 80x200, Perete de duș 90x190, Perete de duș 110x190, Perete de duș 140, Perete de duș 120cm, Perete de duș 100cm x 200cm, Perete de duș 100x190, Perete de duș 140 ​​cm, Perete de duș 90x200, Perete de duș 80cmx200cm, Perete de duș 70cmx190cm, Perete de duș 120x200, Perete de duș 130, Perete de duș 80x190, Perete de duș 80x200, Perete de duș 90cm, Perete de duș 110cm x 190 cm, Perete de duș 140cm 2m, Perete de duș 120cm, Perete de duș 100cm x 200cm, Perete de duș 90x190, Perete de duș 100x190, Perete de duș 140 ​​cm, Perete de duș 90x200, Duș Perete 80cmx200cm, Perete duș 70cmx190cm
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
