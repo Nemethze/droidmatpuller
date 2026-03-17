@@ -131,12 +131,15 @@ def openAd(maxAds, sleepTime):
             if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                 sponsored_present = True
                 break
-                d.swipe(550, 450, 550, 1000)
+            d.swipe(550, 450, 550, 1000)
+            sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
         clickInstr(sponsored_present)
+        sleep(random.uniform(1.5,3))
     except:
-        print("Valami hiba történt az első lapon (  ¯\_(ツ)_/¯  )")
+        print("Valami hiba történt az első lapon")
+        sleep(random.uniform(1.5,3))
     try:
         d(text="Képek").click()
         sponsored_present = False
@@ -144,12 +147,15 @@ def openAd(maxAds, sleepTime):
             if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                 sponsored_present = True
                 break
-                d.swipe(550, 450, 550, 1000)
+            d.swipe(550, 450, 550, 1000)
+            sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
         clickInstr(sponsored_present)
+        sleep(random.uniform(1.5,3))
     except:
         print("'Képek' fül nem található")
+        sleep(random.uniform(1.5,3))
     try:
         d(text="Termékek").click()
         sponsored_present = False
@@ -157,12 +163,15 @@ def openAd(maxAds, sleepTime):
             if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                 sponsored_present = True
                 break
-                d.swipe(550, 450, 550, 1000)
+            d.swipe(550, 450, 550, 1000)
+            sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
         clickInstr(sponsored_present)
+        sleep(random.uniform(1.5,3))
     except:
         print("'Termékek' fül nem található")
+        sleep(random.uniform(1.5,3))
     if skipped_gpages == 3:
         print(f"Timeout {sleepTime} mp-re")
         sleep(sleepTime)
