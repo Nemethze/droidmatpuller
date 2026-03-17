@@ -328,7 +328,7 @@ def close():
 
 while Gstop == "False":
     location = input("Román vagy magyar? (r/m) ")
-    config_num = str(input("Config száma: ") 
+    config_num = str(input("Config száma: "))
     phone_type = input("5g/4g: ")
     readinFile()
     d = u.connect(f"127.0.0.1:{Gport}")
