@@ -209,6 +209,7 @@ def openAd(maxAds, sleepTime):
         d(text="Képek").click()
         sponsored_present = False
         for i in range(3):
+            if location == "m":
                 if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                     sponsored_present = True
                     break
@@ -233,6 +234,7 @@ def openAd(maxAds, sleepTime):
         d(text="Termékek").click()
         sponsored_present = False
         for i in range(3):
+            if location == "m":
                 if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                     sponsored_present = True
                     break
