@@ -66,11 +66,11 @@ def search(keyword):
     sleep(random.uniform(1,2))
 
 
-def clickInstr():
+def clickInstr(maxAdsInner):
     ads_opened = 0
     skipped_ads = 0
     skipped_sites = 0
-    while ads_opened < maxAds:
+    while ads_opened < maxAdsInner:
         try:
             blacklist_hit = False
             d.long_click(150, 1650, 2)
@@ -135,7 +135,7 @@ def openAd(maxAds, sleepTime):
         if sponsored_present == False:
             skipped_gpages += 1
         if sponsored_present == True:
-            clickInstr()
+            clickInstr(maxAds)
         sleep(random.uniform(1.5,3))
     except:
         print("Valami hiba történt az első lapon")
@@ -152,7 +152,7 @@ def openAd(maxAds, sleepTime):
         if sponsored_present == False:
             skipped_gpages += 1
         if sponsored_present == True:
-            clickInstr()
+            clickInstr(maxAds)
         sleep(random.uniform(1.5,3))
     except:
         print("'Képek' fül nem található")
@@ -169,7 +169,7 @@ def openAd(maxAds, sleepTime):
         if sponsored_present == False:
             skipped_gpages += 1
         if sponsored_present == True:
-            clickInstr()
+            clickInstr(maxAds)
         sleep(random.uniform(1.5,3))
     except:
         print("'Termékek' fül nem található")
