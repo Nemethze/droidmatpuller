@@ -244,7 +244,7 @@ while Gstop == "False":
     d = u.connect(f"127.0.0.1:{Gport}")
     for k in Gkeyword:
         airplaneMode(Gtime)
-        os.system("curl ifconfig.me")
+        os.system("curl ifconfig.me\n")
         search(k)
         openAd(GmaxAd, Gshopstop)
         close()
