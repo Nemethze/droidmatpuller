@@ -11,12 +11,17 @@ GmaxAd = 1
 Gsec = 0
 Gstop = "False"
 GcookieList = []
+location = ""
+config_num = ""
+phone_type = ""
+
 
 def readinFile():
-    os.system("rm config_01.txt")
-    os.system("wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config_01.txt")
+    global config_num
+    os.system(f"rm config_{config_num}.txt")
+    os.system(f"wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config_{config_num}.txt")
     try:
-        with open("config_01.txt", "r") as file:
+        with open(f"config_{config_num}.txt", "r") as file:
             lines = file.readlines()
     except:
         with open("config.txt", "r") as file:
@@ -42,56 +47,98 @@ def airplaneMode(time):
 
 
 def search(keyword):
+    global phone_type
     d.app_start("com.android.chrome")
-    sleep(random.uniform(2,4))
-    d.click(50, 300)
-    sleep(random.uniform(0.5,1))
-
-    d.click(1020, 185)
-    sleep(random.uniform(1,2))
-    d.click(700, 420)
-    sleep(random.uniform(2,4))
-
-    d.click(580, 180)
-    d.send_keys(keyword)
-    d.press("enter")
-    sleep(random.uniform(3,5))
-
-    for _ in range(2):
-        d.swipe(500, 1700, 500, 800)  
+    if phone_type == "4g":
+        sleep(random.uniform(2,4))
+        d.click(50, 300)
+        sleep(random.uniform(0.5,1))
+    
+        d.click(1020, 185)
         sleep(random.uniform(1,2))
-
-    d.click(540, 1925)
-    print("Cookie popup elutasítva (koordináta alapján).")
-    sleep(random.uniform(1,2))
+        d.click(700, 420)
+        sleep(random.uniform(2,4))
+    
+        d.click(580, 180)
+        d.send_keys(keyword)
+        d.press("enter")
+        sleep(random.uniform(3,5))
+    
+        for _ in range(2):
+            d.swipe(500, 1700, 500, 800)  
+            sleep(random.uniform(1,2))
+    
+        d.click(540, 1925)
+        print("Cookie popup elutasítva (koordináta alapján).")
+        sleep(random.uniform(1,2))
+    if phone_type == "5g":
+        d.app_start("com.android.chrome")
+        sleep(random.uniform(2,4))
+        d.click(200, 200)
+        sleep(random.uniform(0.5,1))
+    
+        d.click(700, 150)
+        sleep(random.uniform(1,2))
+        d.click(440, 320)
+        sleep(random.uniform(2,4))
+    
+        d.click(360, 140)
+        d.send_keys(keyword)
+        d.press("enter")
+        sleep(random.uniform(3,5))
+    
+        for _ in range(2):
+            d.swipe(360, 1100, 360, 360)  
+            sleep(random.uniform(1,2))
+    
+        d.click(360, 1280)
+        print("Cookie popup elutasítva (koordináta alapján).")
+        sleep(random.uniform(1,2))
 
 
 def clickInstr(maxAdsInner):
+    global phone_type, location
     ads_opened = 0
     skipped_ads = 0
     skipped_sites = 0
     while ads_opened < maxAdsInner:
         try:
             blacklist_hit = False
-            d.long_click(150, 1650, 2)
+            if phone_type == "4g":
+                d.long_click(150, 1650, 2)
+            if phone_type == "5g":
+                d.long_click(70, 1240, 2)
             sleep(random.uniform(2,3))
-            d.click(540, 780)
+            if phone_type == "4g":
+                d.click(540, 780)
+            if phone_type == "5g":
+                d.click(360, 500)
             for b in Gblacklist:
                 if d(textContains=b).exists(timeout=0.5):
                     blacklist_hit = True
                     print(f" → Átugrom, mert blacklist találat: '{b}'")
                     blacklist_hit = True
-                    d.click(1010, 2300)
+                    if phone_type == "4g":
+                        d.click(1010, 2300)
+                    if phone_type == "5g":
+                        d.click(650, 1470)
                     sleep(random.uniform(0.5,1))
-                    d.swipe(510, 1700, 155, 1700)
+                    if phone_type == "4g":
+                        d.swipe(510, 1700, 155, 1700)
+                    if phone_type == "5g":
+                        d.swipe(360, 1280, 50, 1280)
                     skipped_ads += 1
                     print(f"Átugrott hirdetések száma {skipped_ads}")
                     break
             if skipped_ads > 5:
                 print("Sok egymás utánni hirdetés")
                 break
-            if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
-                break
+            if location == "m":
+                if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
+                    break
+            if phone_type == "r":
+                if d(textContains="Accesează").exists(timeout=2) or d(textContains="Mai multe de la").exists(timeout=2):
+                    break
             if blacklist_hit == False:
                 try:
                     if d(text="Open in new tab").exists(timeout=2):
@@ -100,13 +147,22 @@ def clickInstr(maxAdsInner):
                         ads_opened += 1
                         print(f"{ads_opened}. hirdetés megnyitva")
                         sleep(random.uniform(2,3))
-                        d.click(900, 150)  # új fülre váltás
+                        if phone_type == "4g":
+                            d.click(900, 150)  # új fülre váltás
+                        if phone_type == "5g":
+                            d.click(590, 100)  # új fülre váltás
                         sleep(random.uniform(2,3))
-                        d.click(830, 680)  # első katt az oldalon
+                        if phone_type == "4g":
+                            d.click(830, 680)  # első katt az oldalon
+                        if phone_type == "5g":
+                            d.click(500, 500)  # első katt az oldalon
                         sleep(random.uniform(2,3))
                         siteVisit()
                         sleep(random.uniform(2,3))
-                        d.swipe(510, 1700, 163, 1700)  # görgetés
+                        if phone_type == "4g":
+                            d.swipe(510, 1700, 163, 1700)  # görgetés
+                        if phone_type == "5g":
+                            d.swipe(360, 1280, 50, 1280)  # görgetés
                         sleep(random.uniform(3,4))
                     else:
                         print("Nem találtam 'Open in new tab' opciót")
@@ -122,15 +178,24 @@ def clickInstr(maxAdsInner):
 
 
 def openAd(maxAds, sleepTime):
+    global phone_type, location
     sleep(2)
     sponsored_present = False
     skipped_gpages = 0
     try:
         for i in range(3):
-            if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
-                sponsored_present = True
-                break
-            d.swipe(550, 450, 550, 1000)
+            if location == "m":
+                if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
+                    sponsored_present = True
+                    break
+            if location == "r":
+                if d(textContains="Produse sponsorizate").exists(timeout=2) or d(textContains="sponsorizate").exists(timeout=2):
+                    sponsored_present = True
+                    break
+            if phone_type == "4g":
+                d.swipe(550, 450, 550, 1000)
+            if phone_type == "5g":
+                d.swipe(360, 250, 360, 520)
             sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
@@ -144,10 +209,17 @@ def openAd(maxAds, sleepTime):
         d(text="Képek").click()
         sponsored_present = False
         for i in range(3):
-            if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
-                sponsored_present = True
-                break
-            d.swipe(550, 450, 550, 1000)
+                if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
+                    sponsored_present = True
+                    break
+            if location == "r":
+                if d(textContains="Produse sponsorizate").exists(timeout=2) or d(textContains="sponsorizate").exists(timeout=2):
+                    sponsored_present = True
+                    break
+            if phone_type == "4g":
+                d.swipe(550, 450, 550, 1000)
+            if phone_type == "5g":
+                d.swipe(360, 250, 360, 520)
             sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
@@ -161,10 +233,17 @@ def openAd(maxAds, sleepTime):
         d(text="Termékek").click()
         sponsored_present = False
         for i in range(3):
-            if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
-                sponsored_present = True
-                break
-            d.swipe(550, 450, 550, 1000)
+                if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
+                    sponsored_present = True
+                    break
+            if location == "r":
+                if d(textContains="Produse sponsorizate").exists(timeout=2) or d(textContains="sponsorizate").exists(timeout=2):
+                    sponsored_present = True
+                    break
+            if phone_type == "4g":
+                d.swipe(550, 450, 550, 1000)
+            if phone_type == "5g":
+                d.swipe(360, 250, 360, 520)
             sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
@@ -186,7 +265,7 @@ clicked_homelux = False
 
 def siteVisit():
     sleep(random.uniform(3,4))
-    global clicked_homelux
+    global clicked_homelux, phone_type
 
     # Ha a weboldal tartalmazza a 'homelux.hu' részt és még nem kattintottunk → egyszeri kattintás
     try:
@@ -200,7 +279,10 @@ def siteVisit():
         if d(text="Adatkezelési beállítások").exists(timeout=2):
             print("homelux.hu észlelve → egyszeri kattintás (780,800)")
             try:
-                d.click(780, 800)
+                if phone_type == "4g":
+                    d.click(780, 800)
+                if phone_type == "5g":
+                    d.click(500, 570)
                 clicked_homelux = True
                 sleep(random.uniform(1.5,3))
             except Exception as e:
@@ -226,7 +308,10 @@ def siteVisit():
     # Görgetés vagy várakozás
     if Gsec > 0:
         for i in range(Gsec):
-            d.swipe(540, 2000, 540, 370)
+            if phone_type == "4g":
+                d.swipe(540, 2000, 540, 370)
+            if phone_type == "5g":
+                d.swipe(360, 1330, 360, 280)
             sleep(random.uniform(0.5,2))
     else:
         sleep(random.uniform(2,5))
@@ -240,6 +325,9 @@ def close():
 
 
 while Gstop == "False":
+    location = input("Román vagy magyar? (r/m) ")
+    config_num = str(input("Config száma: ") 
+    phone_type = input("5g/4g: ")
     readinFile()
     d = u.connect(f"127.0.0.1:{Gport}")
     for k in Gkeyword:
