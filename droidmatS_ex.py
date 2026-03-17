@@ -66,65 +66,64 @@ def search(keyword):
     sleep(random.uniform(1,2))
 
 
-def clickInstr(sp_pres):
-    if sp_pres == True:
-        while ads_opened < maxAds:
-            try:
-                blacklist_hit = False
-                d.long_click(150, 1650, 2)
-                sleep(random.uniform(2,3))
-                d.click(540, 780)
-                for b in Gblacklist:
-                    if d(textContains=b).exists(timeout=0.5):
-                        blacklist_hit = True
-                        print(f" → Átugrom, mert blacklist találat: '{b}'")
-                        blacklist_hit = True
-                        d.click(1010, 2300)
-                        sleep(random.uniform(0.5,1))
-                        d.swipe(510, 1700, 155, 1700)
-                        skipped_ads += 1
-                        print(f"Átugrott hirdetések száma {skipped_ads}")
-                        break
-                if skipped_ads > 5:
-                    print("Sok egymás utánni hirdetés")
+def clickInstr():
+    ads_opened = 0
+    skipped_ads = 0
+    skipped_sites = 0
+    while ads_opened < maxAds:
+        try:
+            blacklist_hit = False
+            d.long_click(150, 1650, 2)
+            sleep(random.uniform(2,3))
+            d.click(540, 780)
+            for b in Gblacklist:
+                if d(textContains=b).exists(timeout=0.5):
+                    blacklist_hit = True
+                    print(f" → Átugrom, mert blacklist találat: '{b}'")
+                    blacklist_hit = True
+                    d.click(1010, 2300)
+                    sleep(random.uniform(0.5,1))
+                    d.swipe(510, 1700, 155, 1700)
+                    skipped_ads += 1
+                    print(f"Átugrott hirdetések száma {skipped_ads}")
                     break
-                if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
-                    break
-                if blacklist_hit == False:
-                    try:
-                        if d(text="Open in new tab").exists(timeout=2):
-                            skipped_ads = 0
-                            d(text="Open in new tab").click()
-                            ads_opened += 1
-                            print(f"{ads_opened}. hirdetés megnyitva")
-                            sleep(random.uniform(2,3))
-                            d.click(900, 150)  # új fülre váltás
-                            sleep(random.uniform(2,3))
-                            d.click(830, 680)  # első katt az oldalon
-                            sleep(random.uniform(2,3))
-                            siteVisit()
-                            sleep(random.uniform(2,3))
-                            d.swipe(510, 1700, 163, 1700)  # görgetés
-                            sleep(random.uniform(3,4))
-                        else:
-                            print("Nem találtam 'Open in new tab' opciót")
-                            break
-                
-                    except Exception as e:
-                        print("Long click hiba:", e)
-                        continue
-            except Exception as e:
-                print("Hirdetés megnyitási hiba:", e)
+            if skipped_ads > 5:
+                print("Sok egymás utánni hirdetés")
                 break
+            if d(textContains="Továbbiak:").exists(timeout=2) or d(textContains="Felkeresés:").exists(timeout=2):
+                break
+            if blacklist_hit == False:
+                try:
+                    if d(text="Open in new tab").exists(timeout=2):
+                        skipped_ads = 0
+                        d(text="Open in new tab").click()
+                        ads_opened += 1
+                        print(f"{ads_opened}. hirdetés megnyitva")
+                        sleep(random.uniform(2,3))
+                        d.click(900, 150)  # új fülre váltás
+                        sleep(random.uniform(2,3))
+                        d.click(830, 680)  # első katt az oldalon
+                        sleep(random.uniform(2,3))
+                        siteVisit()
+                        sleep(random.uniform(2,3))
+                        d.swipe(510, 1700, 163, 1700)  # görgetés
+                        sleep(random.uniform(3,4))
+                    else:
+                        print("Nem találtam 'Open in new tab' opciót")
+                        break
+            
+                except Exception as e:
+                    print("Long click hiba:", e)
+                    continue
+        except Exception as e:
+            print("Hirdetés megnyitási hiba:", e)
+            break
 
 
 
 def openAd(maxAds, sleepTime):
     sleep(2)
     sponsored_present = False
-    ads_opened = 0  
-    skipped_ads = 0
-    skipped_sites = 0
     skipped_gpages = 0
     try:
         for i in range(3):
@@ -135,7 +134,8 @@ def openAd(maxAds, sleepTime):
             sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
-        clickInstr(sponsored_present)
+        if sponsored_present == True:
+            clickInstr()
         sleep(random.uniform(1.5,3))
     except:
         print("Valami hiba történt az első lapon")
@@ -151,7 +151,8 @@ def openAd(maxAds, sleepTime):
             sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
-        clickInstr(sponsored_present)
+        if sponsored_present == True:
+            clickInstr()
         sleep(random.uniform(1.5,3))
     except:
         print("'Képek' fül nem található")
@@ -167,7 +168,8 @@ def openAd(maxAds, sleepTime):
             sleep(random.uniform(1,2))
         if sponsored_present == False:
             skipped_gpages += 1
-        clickInstr(sponsored_present)
+        if sponsored_present == True:
+            clickInstr()
         sleep(random.uniform(1.5,3))
     except:
         print("'Termékek' fül nem található")
@@ -239,7 +241,6 @@ def close():
 
 while Gstop == "False":
     readinFile()
-    print(Gstop)
     d = u.connect(f"127.0.0.1:{Gport}")
     for k in Gkeyword:
         airplaneMode(Gtime)
