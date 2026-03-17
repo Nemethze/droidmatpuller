@@ -68,7 +68,7 @@ def search(keyword):
 
 def clickInstr(sp_pres):
     if sp_pres == True:
-        while ads_opened < maxAds and sponsored_present == True:
+        while ads_opened < maxAds:
             try:
                 blacklist_hit = False
                 d.long_click(150, 1650, 2)
