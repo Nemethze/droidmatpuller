@@ -248,4 +248,3 @@ while Gstop == "False":
         search(k)
         openAd(GmaxAd, Gshopstop)
         close()
-        
