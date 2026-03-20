@@ -194,14 +194,12 @@ def openAd(maxAds, sleepTime):
             if location == "m":
                 if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                     sponsored_present = True
-                    break
             if location == "r":
                 if d(textContains="Produse sponsorizate").exists(timeout=2) or d(textContains="sponsorizate").exists(timeout=2):
                     sponsored_present = True
-                    break
-            if phone_type == "4g":
+            if phone_type == "4g" and sponsored_present == False:
                 d.swipe(550, 450, 550, 1000)
-            if phone_type == "5g":
+            if phone_type == "5g" and sponsored_present == False:
                 d.swipe(360, 250, 360, 520)
             sleep(random.uniform(1,2))
         if sponsored_present == False:
@@ -219,14 +217,12 @@ def openAd(maxAds, sleepTime):
             if location == "m":
                 if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                     sponsored_present = True
-                    break
             if location == "r":
                 if d(textContains="Produse sponsorizate").exists(timeout=2) or d(textContains="sponsorizate").exists(timeout=2):
                     sponsored_present = True
-                    break
-            if phone_type == "4g":
+            if phone_type == "4g" and sponsored_present == False:
                 d.swipe(550, 450, 550, 1000)
-            if phone_type == "5g":
+            if phone_type == "5g" and sponsored_present == False:
                 d.swipe(360, 250, 360, 520)
             sleep(random.uniform(1,2))
         if sponsored_present == False:
@@ -244,14 +240,12 @@ def openAd(maxAds, sleepTime):
             if location == "m":
                 if d(textContains="Szponzorált termékek").exists(timeout=2) or d(textContains="Szponzorált").exists(timeout=2):
                     sponsored_present = True
-                    break
             if location == "r":
                 if d(textContains="Produse sponsorizate").exists(timeout=2) or d(textContains="sponsorizate").exists(timeout=2):
                     sponsored_present = True
-                    break
-            if phone_type == "4g":
+            if phone_type == "4g" and sponsored_present == False:
                 d.swipe(550, 450, 550, 1000)
-            if phone_type == "5g":
+            if phone_type == "5g" and sponsored_present == False:
                 d.swipe(360, 250, 360, 520)
             sleep(random.uniform(1,2))
         if sponsored_present == False:
