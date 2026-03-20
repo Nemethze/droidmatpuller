@@ -28,8 +28,10 @@ def readinFile():
             lines = file.readlines()
     with open("port.txt","r") as file2:
         lines2 = file2.readlines()
+    with open("config_local.txt","r") as file3:
+        lines3 = file3.readlines()
         
-    global Gtime, Gkeyword, Gblacklist, GmaxAd, Gport, Gsec, Gstop, GcookieList, Gshopstop
+    global Gtime, Gkeyword, Gblacklist, GmaxAd, Gport, Gsec, Gstop, GcookieList, Gshopstop, location, config_num, phone_type
     Gtime = int(lines[1].strip())
     Gkeyword = lines[3].strip().split(", ")
     Gblacklist = lines[5].strip().split(", ")
@@ -39,6 +41,10 @@ def readinFile():
     Gstop = lines[15].strip()
     GcookieList = lines[11].strip().split(", ")
     Gshopstop = int(lines[13].strip())
+    location = lines3[1].strip()
+    config_num = lines3[3].strip()
+    phone_type = lines3[5].strip()
+    
 
 def airplaneMode(time):
     os.system("sudo settings put global airplane_mode_on 1")
@@ -327,9 +333,6 @@ def close():
 
 
 while Gstop == "False":
-    location = input("Román vagy magyar? (r/m) ")
-    config_num = str(input("Config száma: "))
-    phone_type = input("5g/4g: ")
     readinFile()
     d = u.connect(f"127.0.0.1:{Gport}")
     for k in Gkeyword:
