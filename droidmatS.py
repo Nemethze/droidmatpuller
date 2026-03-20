@@ -17,7 +17,13 @@ phone_type = ""
 
 
 def readinFile():
-    global config_num
+    global location, config_num, phone_type
+    with open("config_local.txt","r") as file3:
+        lines3 = file3.readlines()
+    location = lines3[1].strip()
+    config_num = lines3[3].strip()
+    phone_type = lines3[5].strip()
+    
     os.system(f"rm config_{config_num}.txt")
     os.system(f"wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config_{config_num}.txt")
     try:
@@ -28,10 +34,9 @@ def readinFile():
             lines = file.readlines()
     with open("port.txt","r") as file2:
         lines2 = file2.readlines()
-    with open("config_local.txt","r") as file3:
-        lines3 = file3.readlines()
+
         
-    global Gtime, Gkeyword, Gblacklist, GmaxAd, Gport, Gsec, Gstop, GcookieList, Gshopstop, location, config_num, phone_type
+    global Gtime, Gkeyword, Gblacklist, GmaxAd, Gport, Gsec, Gstop, GcookieList, Gshopstop
     Gtime = int(lines[1].strip())
     Gkeyword = lines[3].strip().split(", ")
     Gblacklist = lines[5].strip().split(", ")
@@ -41,10 +46,6 @@ def readinFile():
     Gstop = lines[15].strip()
     GcookieList = lines[11].strip().split(", ")
     Gshopstop = int(lines[13].strip())
-    location = lines3[1].strip()
-    config_num = lines3[3].strip()
-    phone_type = lines3[5].strip()
-    
 
 def airplaneMode(time):
     os.system("sudo settings put global airplane_mode_on 1")
