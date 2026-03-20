@@ -1,0 +1,6 @@
+# lokáció: r = román, m = magyar
+m
+# konfiguráció szám (egyszámjegyűeknék 0X)
+01
+# modell: 4g, 5g
+4g
