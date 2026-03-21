@@ -211,7 +211,10 @@ def openAd(maxAds, sleepTime):
         print("Valami hiba történt az első lapon")
         sleep(random.uniform(1.5,3))
     try:
-        d(text="Képek").click()
+        if location == "m":
+            d(text="Képek").click()
+        if location == "r":
+            d(text="Imagini").click()
         sponsored_present = False
         for i in range(3):
             if location == "m":
@@ -234,7 +237,10 @@ def openAd(maxAds, sleepTime):
         print("'Képek' fül nem található")
         sleep(random.uniform(1.5,3))
     try:
-        d(text="Termékek").click()
+        if location == "m":
+            d(text="Termékek").click()
+        if location == "r":
+            d(text="Produse").click()
         sponsored_present = False
         for i in range(3):
             if location == "m":
