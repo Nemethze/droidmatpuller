@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Zuhanyfal 80x200, Zuhanyfal 90x190, Zuhanyfal 110x190, Zuhanyfal 140, Zuhanyfal 120cm, Zuhanyfal 100cm x 200cm, zuhanyfal 100x190, Zuhanyfal 140 cm, Zuhanyfal 90x200, Zuhanyfal 80cmx200cm, Zuhanyfal 70cmx190cm, Zuhanyfal 120x200, Zuhanyfal 130, Zuhanyfal 80x190, Zuhanyfal 80x200, Zuhanyfal 90cm, Zuhanyfal 110cm x 190 cm, Zuhanyfal 140cm 2m, Zuhanyfal 120cm, Zuhanyfal 100cm x 200cm, Zuhanyfal 90x190, Zuhanyfal 100x190, Zuhanyfal 140 cm, Zuhanyfal 90x200, Zuhanyfal 80cmx200cm, Zuhanyfal 70cmx190cm, Zuhanyfal 120x200, Zuhanyfal 130, Zuhanyfal 80x190
+zuhanyfal 70x190, zuhanyfal 80x190, zuhanyfal 80x200, zuhanyfal 90 cm, zuhanyfal 90x190, zuhanyfal 90x200, zuhanyfal 100x190, zuhanyfal 100x200, zuhanyfal 110x190, zuhanyfal 120 cm, zuhanyfal 120x200, zuhanyfal 130 cm, zuhanyfal 140 cm, walk in zuhanyfal, fix zuhanyfal, keret nélküli zuhanyfal, fekete zuhanyfal, matt fekete zuhanyfal, 8 mm zuhanyfal, nano bevonatos zuhanyfal, easy clean zuhanyfal, walk in zuhanyfal 90x200, walk in zuhanyfal 100x190, walk in zuhanyfal 100x200, walk in zuhanyfal 120x200, fix zuhanyfal 120x200, fix zuhanyfal 140 cm, keret nélküli zuhanyfal 90x200, keret nélküli zuhanyfal 120x200, fekete profilos zuhanyfal, matt fekete walk in zuhanyfal, 8 mm walk in zuhanyfal, nano bevonatos walk in zuhanyfal
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
