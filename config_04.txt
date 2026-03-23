@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Zuhanyfal 90x190, Zuhanyfal 80x200, Zuhanyfal 90cm, Zuhanyfal 110cm x 190 cm, Zuhanyfal 140cm x 2m, Zuhanyfal 120cm, Zuhanyfal 100cm x 200cm, Zuhanyfal 90x190, Zuhanyfal 100x190, Zuhanyfal 140 cm, Zuhanyfal 90x200, Zuhanyfal 70cmx190cm, Zuhanyfal 120x200, Zuhanyfal 130, Zuhanyfal 80x190, Zuhanyfal 80cmx200cm, Zuhanyfal 90x190, Zuhanyfal 80x200, Zuhanyfal 90cm, Zuhanyfal 110cm x 190 cm, Zuhanyfal 140cm 2m, Zuhanyfal 120cm, Zuhanyfal 100cm x 200cm, Zuhanyfal 90x190, Zuhanyfal 100x190, Zuhanyfal 140 cm, Zuhanyfal 90x200, Zuhanyfal 70cmx190cm, Zuhanyfal 120x200, Zuhanyfal 130, Zuhanyfal 80x190
+zuhanyfal 80x200 cm, zuhanyfal 90x200 cm, zuhanyfal 100x200 cm, zuhanyfal 120x200 cm, zuhanyfal 140x200 cm, zuhanyfal 80x190 cm, zuhanyfal 90x190 cm, zuhanyfal 100x190 cm, zuhanyfal 110x190 cm, zuhanyfal 70x190 cm, walk in zuhanyfal 80x200, walk in zuhanyfal 90x200, walk in zuhanyfal 100x200, walk in zuhanyfal 120x200, fix zuhanyfal 80x200, fix zuhanyfal 90x200, fix zuhanyfal 100x200, fix zuhanyfal 120x200, keret nélküli zuhanyfal 80x200, keret nélküli zuhanyfal 90x200, keret nélküli zuhanyfal 100x200, keret nélküli zuhanyfal 120x200, fekete keretes zuhanyfal, matt fekete zuhanyfal, átlátszó üveg zuhanyfal, edzett üveg zuhanyfal, 8 mm vastag zuhanyfal, nano bevonatos zuhanyfal, easy clean zuhanyfal, zuhanyfal oldalfal, zuhanyfal merevítőrúddal, zuhanyfal tartórúddal, walk in üvegfal zuhanyhoz, modern zuhanyfal, zuhanyfal kis fürdőszobába, zuhanyfal ár, zuhanyfal akció, zuhanyfal rendelés
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
