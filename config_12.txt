@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-cabine de duș 100x70, cabine de duș 80x80, cabine de duș 90x80, cabine de duș 80x60, cabine de duș 80x90, cabine de duș 100x100, cabine de duș 110x100, cabine de duș 120x90, cabine de duș 80x70, cabine de duș 80x90, cabine de duș 100x110, cabine de duș 100x80, cabine de duș 80x60, cabine de duș 90x100
+cabine de duș 80x90, cabine de duș 100x100, cabine de duș 110x100, cabine de duș 120x90, cabine de duș 80x70, cabine de duș 80x90, cabine de duș 100x110, cabine de duș 100x80, cabine de duș 80x60, cabine de duș 90x100, cabine de duș 100x70, cabine de duș 80x80, cabine de duș 90x80, cabine de duș 80x60
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare, roishopper, Roishopper
 # maxmiális hirdetés megnyitás
