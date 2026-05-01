@@ -5,7 +5,7 @@ zuhanykabin ajtó 100 cm, zuhanykabin bauhaus, zuhanykabin tálcával 90x100, zu
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
-5
+10
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
 # cookie feliratok amiket keres ", " elválasztva
