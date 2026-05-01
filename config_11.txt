@@ -5,7 +5,7 @@ Perete de duș 80x200, Perete de duș 100x190, Perete de duș 140 cm, Perete de 
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
-5
+10
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
 # cookie feliratok amiket keres ", " elválasztva
