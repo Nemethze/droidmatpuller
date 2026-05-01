@@ -5,7 +5,7 @@ zuhanyfal 100 cm, zuhanyfal 120x200, zuhanyfal 140 cm, zuhanyfal 180 cm magas, z
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
 # maxmiális hirdetés megnyitás
-5
+10
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
 # cookie feliratok amiket keres ", " elválasztva
