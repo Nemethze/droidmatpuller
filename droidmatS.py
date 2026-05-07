@@ -30,6 +30,8 @@ def readinFile():
         with open(f"config_{config_num}.txt", "r") as file:
             lines = file.readlines()
     except:
+        os.system(f"rm config.txt")
+        os.system(f"wget https://raw.githubusercontent.com/Nemethze/droidmatpuller/refs/heads/main/config.txt")
         with open("config.txt", "r") as file:
             lines = file.readlines()
     with open("port.txt","r") as file2:
