@@ -1,9 +1,9 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-80x120 zuhanykabin, milano duo zuhanykabin, zuhany tolóajtó, zuhany üvegajtó, zuhanykabin pont hu, pilas zuhanykabin, belver duo zuhanykabin, zuhanyfal 100 cm, sarokkád 140x140, tusoló üvegfal, fürdőszoba üvegfal, 150x150 sarokkád, zuhanyajtó 80 cm, fehér zuhanypanel, zuhanyszett, mosdószekrény mosdóval, fürdőszoba szekrény mosdóval, mosdókagyló szekrénnyel, sarokkád 150x150, zuhanykabinpont hu vélemények, zuhanyfal 90 cm, zuhanyfal 90x200, zuhanyfal 80 cm, zuhanypanel fehér, zuhanyfal 50 cm, zuhanyajtó 120 cm, zuhanyfal 60 cm, zuhanykabin 90x120, water fun zuhanykabin, fekete zuhanyfal, toló zuhanyajtó, water fun zuhanyfal, 90x120 zuhanykabin, fürdőszoba bútor, zuhany, fekete zuhanypanel, nizza aszimmetrikus kád, üvegfal zuhanyzóhoz, zuhany összefolyó, zuhanytálca 90x120, mosdószekrény, zuhanykabin tálcával, zuhanypanel fekete, zuhanyszett csapteleppel, 180x80 kád, zuhanyajto, walkin zuhanyfal, water fan, zuhanytálca 80x100, üvegfal fürdőszoba
+zuhanypanel, zuhany panel, zuhanyajtó 90, zuhanyajtó, 90x90 zuhanykabin, zuhany csaptelep, 140x140 sarokkád, zuhanykabinpont, zuhanytálca 80x80, zuhanykabin 90x90, water fun kft, zuhany lefolyó, aszimmetrikus kád, kád, akril kád, zuhany fal, waterfun hu, fürdőszoba szekrény, sarokkád, zuhanykabin ajtó, zuhanypanelek, zuhanyfolyóka, rubio zuhanykabin, üvegfal zuhany, zuhanyfal ajtóval, kádparaván, zuhanykabin, üveg zuhanyfal, zuhanyajtó 100 cm, 80x80 zuhanykabin, zuhanykabin 80x80, zuhanykabinpont hu, zuhanykabinpont vélemények, zuhanyfal, zuhanykabin pont, waterfun kft, water fun, zuhanyfal 120 cm, zuhany üvegfal, zuhanytálca, 100x100 zuhanykabin, zuhanyfalak, üvegfal, zuhanykabin 100x100, zuhanykabin hu, walk in zuhanyfal, fürdőkád, waterfun, zuhanytálca 90x90, zuhanyfal üveg
 # balcklistelt itemek  ", " elválasztva
-||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont
+||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
 10
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
