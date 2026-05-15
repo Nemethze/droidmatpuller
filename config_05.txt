@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-water fun kft, üveg zuhanyfal, zuhanyajtó, zuhanypanelek, zuhanykabin 100x100, kád, rubio zuhanykabin, zuhanytálca 80x80, 140x140 sarokkád, fürdőszoba szekrény, 90x90 zuhanykabin, zuhanyajtó 100 cm, akril kád, zuhanykabin hu, zuhanykabin pont, üvegfal zuhany, zuhanykabinpont hu, zuhanyfolyóka, zuhanykabin 90x90, zuhany fal, waterfun, zuhanypanel, 80x80 zuhanykabin, sarokkád, zuhanykabinpont vélemények, zuhanykabinpont, zuhanyfal üveg, zuhanytálca, zuhany lefolyó, zuhanytálca 90x90, zuhanyfal, aszimmetrikus kád, zuhany üvegfal, 100x100 zuhanykabin, waterfun kft, üvegfal, zuhanykabin 80x80, walk in zuhanyfal, kádparaván, zuhanykabin, zuhany panel, zuhany csaptelep, water fun, zuhanyfal ajtóval, zuhanyfalak, zuhanyfal 120 cm, zuhanykabin ajtó, zuhanyajtó 90, fürdőkád, waterfun hu
+fürdőkád, zuhanyfal üveg, zuhanyajtó, zuhanytálca, walk in zuhanyfal, zuhanykabin 90x90, sarokkád, zuhanypanel, zuhanykabin, zuhany üvegfal, kádparaván, üveg zuhanyfal, zuhanyfal, zuhany panel
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
