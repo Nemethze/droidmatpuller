@@ -5,7 +5,7 @@ belver duo zuhanykabin, zuhanykabin 120x90, zuhanykabin 80x120, 100x100 zuhanyka
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
-10
+20
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
 # cookie feliratok amiket keres ", " elválasztva
