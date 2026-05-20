@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-80x80 cabină de duș, cadă acrilică, water fun kft, cabină de duș, ușă cabină de duș, perete duș, cădiță de duș 80x80, paravan de cadă, perete de sticlă pentru duș, ușă de duș 100 cm, cadă, 100x100 cabină de duș, ușă de duș 90, cădiță de duș, 90x90 cabină de duș, ușă de duș, water fun, perete sticlă duș, panou de duș, cădiță de duș 90x90, cabină de duș 100x100, baterie de duș, perete de duș walk-in, cabină de duș rubio, rigolă de duș, perete de duș cu ușă, scurgere duș, pereți de duș, cadă de colț, cabină de duș 90x90, perete de sticlă duș, cadă de baie, perete de duș, perete de duș 120 cm, waterfun, cadă de colț 140x140, waterfun kft, perete de sticlă, dulap de baie, cabină de duș 80x80, perete de duș din sticlă, cadă asimetrică, panouri de duș, panou duș
+perete dus walk in, paravan sticla dus, cabina de dus, panou dus sticla, sticla dus, paravan dus sticla, perete sticla dus, panou dus, dus walk in, geam dus, paravan dus walk in, cabina dus, perete dus, paravan dus, sticla dus walk in, panou sticla dus, perete sticla dus 90x200, paravan sticla dus 120x200, geam cabina dus, panel dus
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare, roishopper, Roishopper
 # maxmiális hirdetés megnyitás
