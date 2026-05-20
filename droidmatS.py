@@ -123,12 +123,12 @@ def clickInstr(maxAdsInner):
             if phone_type == "5g":
                 d.click(360, 500)
             for b in Gblacklist:
-                if d(textContains=b).exists(timeout=0.5):
+                if d(textContains=b).exists(timeout=1):
                     blacklist_hit = True
                     print(f" → Átugrom, mert blacklist találat: '{b}'")
                     blacklist_hit = True
                     if phone_type == "4g":
-                        d.click(1010, 2300)
+                        d.click(950, 2300)
                     if phone_type == "5g":
                         d.click(650, 1470)
                     sleep(random.uniform(0.5,1))
