@@ -116,7 +116,7 @@ def clickInstr(maxAdsInner):
             if phone_type == "4g":
                 d.long_click(150, 1550, 2)
             if phone_type == "5g":
-                d.long_click(70, 1140, 2)
+                d.long_click(70, 1040, 2)
             sleep(random.uniform(2,3))
             if phone_type == "4g":
                 d.click(540, 780)
@@ -135,7 +135,7 @@ def clickInstr(maxAdsInner):
                     if phone_type == "4g":
                         d.swipe(510, 1550, 155, 1550)
                     if phone_type == "5g":
-                        d.swipe(360, 1140, 50, 1140)
+                        d.swipe(360, 1040, 50, 1040)
                     sleep(random.uniform(3,4))
                     skipped_ads += 1
                     print(f"Átugrott hirdetések száma {skipped_ads}")
@@ -172,7 +172,7 @@ def clickInstr(maxAdsInner):
                         if phone_type == "4g":
                             d.swipe(510, 1550, 155, 1550)
                         if phone_type == "5g":
-                            d.swipe(360, 1140, 50, 1140)
+                            d.swipe(360, 1040, 50, 1040)
                         sleep(random.uniform(3,4))
                     else:
                         print("Nem találtam 'Open in new tab' opciót")
