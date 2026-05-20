@@ -123,7 +123,7 @@ def clickInstr(maxAdsInner):
             if phone_type == "5g":
                 d.click(360, 500)
             for b in Gblacklist:
-                if d(textContains=b).exists(timeout=1):
+                if d(textContains=b).exists(timeout=0.5):
                     blacklist_hit = True
                     print(f" → Átugrom, mert blacklist találat: '{b}'")
                     blacklist_hit = True
@@ -133,9 +133,10 @@ def clickInstr(maxAdsInner):
                         d.click(650, 1470)
                     sleep(random.uniform(0.5,1))
                     if phone_type == "4g":
-                        d.swipe(510, 1700, 155, 1700)
+                        d.swipe(510, 1550, 155, 1550)
                     if phone_type == "5g":
-                        d.swipe(360, 1280, 50, 1280)
+                        d.swipe(360, 1140, 50, 1140)
+                    sleep(random.uniform(3,4))
                     skipped_ads += 1
                     print(f"Átugrott hirdetések száma {skipped_ads}")
                     break
@@ -169,9 +170,9 @@ def clickInstr(maxAdsInner):
                         siteVisit()
                         sleep(random.uniform(2,3))
                         if phone_type == "4g":
-                            d.swipe(510, 1700, 163, 1700)  # görgetés
+                            d.swipe(510, 1550, 155, 1550)
                         if phone_type == "5g":
-                            d.swipe(360, 1280, 50, 1280)  # görgetés
+                            d.swipe(360, 1140, 50, 1140)
                         sleep(random.uniform(3,4))
                     else:
                         print("Nem találtam 'Open in new tab' opciót")
