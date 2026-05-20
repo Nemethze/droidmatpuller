@@ -5,7 +5,7 @@ zuhanyfal, zuhany üvegfal, walk in zuhanyfal, zuhanyfal üveg, üvegfal, zuhany
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
-10
+3
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
 # cookie feliratok amiket keres ", " elválasztva
