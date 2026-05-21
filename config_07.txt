@@ -11,6 +11,6 @@ cabina dus, panou sticla dus, paravan dus, perete sticla dus 90x200, sticla dus 
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+30
 # a shopping leállítása
 False
