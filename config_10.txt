@@ -11,6 +11,6 @@ cabina dus, cabina de dus, cabina dus 100x100, cabina dus 80x80, cabine de dus, 
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+30
 # a shopping leállítása
 False
