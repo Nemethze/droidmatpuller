@@ -11,6 +11,6 @@ perete dus walk in, paravan sticla dus, cabina de dus, panou dus sticla, sticla 
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+30
 # a shopping leállítása
 False
