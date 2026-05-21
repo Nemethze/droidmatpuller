@@ -119,7 +119,14 @@ def clickInstr(maxAdsInner):
                 d.long_click(70, 1040, 2)
             sleep(random.uniform(2,3))
             if phone_type == "4g":
-                d.click(540, 780)
+                if d(text="google.com/aclk?").exists(timeout=2):
+                    d(text="google.com/aclk?").click()
+                if d(text="google.com/url?").exists(timeout=2):
+                    d.click(1010, 2300)
+                    d.long_click(150, 1350, 2)
+                    d(text="google.com/aclk?").click()
+                else:
+                    d.click(540, 780)
             if phone_type == "5g":
                 d.click(360, 500)
             for b in Gblacklist:
