@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-cabina dus, cabina de dus, cabina dus 100x100, cabina dus 80x80, cabine de dus, cabina dus 90x90, cabina de dus 90x90, cabina de dus 100x100, cabina dus dedeman, cabina dus 90 90, sticla dus, cabine dus, cabina dus sticla, cabina dus 120x90, paravan dus, cabina de dus 80x80, cabina dus cu cadita, cabina dus 90 90 ieftine
+panou dus, paravan dus 140x200, sticla de dus, walk in dus, geam dus 120x200, perete de dus, paravan baie, paravan dus 100x200, coloana dus, dus walk in, sticla cabina dus, perete sticla dus 50 cm, paravan de dus, panel dus, sticla pentru dus, perete dus walk in 120 cm, paravane dus, paravan dus 120x200, geam de dus, perete sticla dus leroy merlin
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
