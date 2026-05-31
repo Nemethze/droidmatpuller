@@ -1,16 +1,16 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-zuhanykabin üveg, zuhany üvegfal 120 cm, walk in zuhanyfal, zuhanyfal 100 x 200, zuhanytálca 90x120, zuhany üvegfal 60 cm, zuhanyüveg, zuhanyfal üveg 80 cm, zuhanyfal 110x200, zuhanyfal 90, fürdőszoba zuhanyfal, egyedi zuhany üvegfal, fürdőkabin, zuhany üvegfal 100 cm, tusoló fal, zuhany üvegfal 90x200, üvegfal, fürdőszoba zuhany üveg, zuhanytálca, üveg zuhanyfal, ravak zuhanykabin, épített zuhanyzó zuhany üvegfal, fürdőszoba panel, zuhanyfal uveg, zuhanyfal 90 cm, 70 cm zuhanyfal, zuhanyfal 110 cm, zuhanyzós fürdőszoba ötletek, fix zuhanyfal, glasblokken douchewand, zuhany fal, walk in black, üveg zuhanyfülke, zuhanyfal 60x200, üvegfal fürdőszoba, zuhanykabin hu, tejüveg zuhanyfal, zuhanyfal 80x200, zuhanyfal üveg, zuhanyfal 50 cm, üveg zuhanyfal 120x200, zuhanyfal, tusoló üvegfal, zuhanyfal tejüveg, zuhany üvegfal 80 cm, fürdőszobai üvegfal, zuhany paraván, walk in kabina, zuhany uvegfal, 90x200 zuhanyfal, szatmári fürdőszoba, zuhany üvegfal, zuhanypanel, edzett üveg zuhanyfal, zuhanyfal 90x200, zuhanyfal 80 cm, zuhanyfal 60 cm, zuhanyfal savmart, zuhanyfal 120 cm, uvegfal zuhany, zuhanyfal 70 cm, fürdő üvegfal, zuhanyfal fekete, zuhanyfal üveg 90 cm, matt zuhanyfal, fürdőszoba, fürdőszoba elválasztó panel, zuhany üvegfal obi, zuhanykabin fal, üvegfal zuhanyzóhoz, épített zuhany, furdoszoba uvegfal, süllyesztett zuhanytálca, beepitett zuhany, zuhany falpanel, zuhany üvegfal 110 cm, walk in zuhanyfal 90x200, praktiker zuhanyfal, zuhanyfal 120x200, walk in 70 cm, zuhanykabin, fekete zuhanyfal, zuhanyfal 70x200, savmart zuhanyfal, üvegfal zuhany, obi zuhanyfal, zuhany üvegfal 70 cm, zuhanyzó, walkin zuhanyfal, uvegfal, zuhanykabin üvegfal, walk in black zuhanyfal, walk in zuhanyfal 120, üvegfal zuhanyhoz, zuhanyfal 100 cm, zuhanyfalak, zuhanyfal walk in, zuhanyfal 80, zuhany üveg, fürdőszoba üvegfal
+Homelux Polo White II 80x80 zuhanykabin, Homelux Polo Black II 80x80 zuhanykabin, Homelux Marco White II 80x80 zuhanykabin, Homelux Marco Black II 80x80 zuhanykabin, Homelux Spirit Mátrix 80x80 szögletes zuhanykabin, Homelux Spirit Mátrix 80x80 íves zuhanykabin, Homelux Spirit Matt 80x80 szögletes zuhanykabin, Homelux Spirit Matt 80x80 íves zuhanykabin, Homelux Spirit Bamboo 80x80 szögletes zuhanykabin, Homelux Spirit Bamboo 80x80 íves zuhanykabin, Homelux Spirit Deep 80x80 zuhanykabin, Homelux Bold-in 80x100 zuhanykabin, Homelux Flexi 80x90 falsíkra szerelhető zuhanykabin, Homelux Flexi 80x90 sarokba szerelhető zuhanykabin, Homelux Galatro 80x100 zuhanykabin, Homelux Simple 80x100 zuhanykabin, Homelux Karolino 80x80 Black zuhanykabin, Homelux Karolino 80x80 White zuhanykabin, Homelux Cora 80x120 zuhanykabin, Homelux River walk in zuhanyfal 70x190 króm, Homelux River walk in zuhanyfal 70x190 fekete, Homelux Walker 70x195 Walk in zuhanyfal, Homelux Milagro walk in zuhanyfal 90x195, Homelux Zuhanyfal 80x185, Homelux Zuhanyfal 90x185, Leziter Polo White II 80x80, Leziter Polo Black II 80x80, Leziter Marco White II 80x80, Leziter Marco Black II 80x80, Leziter Cora 80x120
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
-15
+10
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
-3
+0
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+12
 # a shopping leállítása
 False
