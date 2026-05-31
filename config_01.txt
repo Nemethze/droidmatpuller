@@ -1,16 +1,16 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-homelux zuhanykabin, homelux zuhanyfal, homelux zuhanyajtó, homelux walk in zuhanykabin, homelux walk in zuhanyfal, homelux szögletes zuhanykabin, homelux íves zuhanykabin, homelux aszimmetrikus zuhanykabin, homelux mélytálcás zuhanykabin, homelux hátfalas zuhanykabin, homelux falsíkra szerelhető kabin, homelux egyszárnyú zuhanyajtó, homelux kétszárnyú zuhanyajtó, homelux duplagörgős zuhanyajtó, homelux görgős zuhanyajtó, homelux edzett üveg zuhanyajtó, homelux leziter zuhanykabin, homelux polo white zuhanykabin, homelux polo black zuhanykabin, homelux spirit mátrix zuhanykabin, homelux spirit matt zuhanykabin, homelux spirit bamboo zuhanykabin, homelux marco white zuhanykabin, homelux marco black zuhanykabin, homelux bold in zuhanykabin, homelux flexi zuhanykabin, homelux galatro zuhanykabin, homelux karolino zuhanykabin, homelux simple zuhanykabin, homelux spirit deep zuhanykabin
+Polo White II 80x80 cm szögletes fehér hátfalas zuhanykabin zuhanytálcával, Spirit Mátrix 80x80 cm szögletes zuhanykabin zuhanytálca nélkül, Spirit Mátrix 80x80 cm íves zuhanykabin zuhanytálca nélkül, Bold-in 80x100 cm aszimmetrikus zuhanykabin zuhanytálca nélkül, Polo Black II 80x80 cm szögletes fekete hátfalas zuhanykabin zuhanytálcával, Flexi 80x90 cm falsíkra szerelhető aszimmetrikus zuhanykabin zuhanytálca nélkül, Spirit Matt 80x80 cm szögletes zuhanykabin zuhanytálca nélkül, Spirit Matt 80x80 cm íves zuhanykabin zuhanytálca nélkül, Marco White II 80x80 cm zuhanykabin zuhanytálcával, Flexi 80x90 cm sarokba szerelhető aszimmetrikus zuhanykabin zuhanytálca nélkül, Marco Black II 80x80 cm zuhanykabin zuhanytálcával, Galatro 80x100 cm aszimmetrikus zuhanykabin zuhanytálca nélkül, Spirit Bamboo 80x80 cm szögletes zuhanykabin zuhanytálca nélkül, Spirit Bamboo 80x80 cm íves zuhanykabin zuhanytálca nélkül, Karolino 80x80 cm Black mélytálcás zuhanykabin, Karolino 80x80 cm White mélytálcás zuhanykabin, Simple 80x100 cm nyílóajtós aszimmetrikus zuhanykabin zuhanytálca nélkül, Spirit Deep 80x80 cm íves zuhanykabin zuhanytálcával, Cora 80x120 cm mélytálcás zuhanykabin, River walk in zuhanyfal 70x190 cm króm, Walker 70x195 cm Walk in zuhanyfal, Zuhanyfal 80x185 cm, Zuhanyfal 90x185 cm, Milagro walk in zuhanyfal 90x195 cm, River walk in zuhanyfal 70x190 cm fekete, Leziter Polo White II zuhanykabin, Leziter Polo Black II zuhanykabin, Leziter Spirit Mátrix zuhanykabin, Leziter Marco White II zuhanykabin, Leziter Marco Black II zuhanykabin
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
 3
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
-3
+0
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+12
 # a shopping leállítása
 False
