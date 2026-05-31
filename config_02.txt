@@ -1,16 +1,16 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-gemini zuhanykabin, gemini duo zuhanykabin, geminiduo zuhanykabin, gemini zuhanyfal, gemini duo zuhanyfal, geminiduo zuhanyfal, gemini zuhanyajtó, gemini duo zuhanyajtó, gemini walk in zuhanyfal, gemini walk in zuhanykabin, gemini szögletes zuhanykabin, gemini íves zuhanykabin, gemini mélytálcás zuhanykabin, gemini hátfalas zuhanykabin, gemini hidromasszázs zuhanykabin, gemini polo white zuhanykabin, gemini polo black zuhanykabin, gemini marco white zuhanykabin, gemini marco black zuhanykabin, gemini spirit mátrix zuhanykabin, gemini spirit matt zuhanykabin, gemini spirit bamboo zuhanykabin, gemini spirit clear zuhanykabin, gemini karolino zuhanykabin, gemini mila hidromasszázs zuhanykabin, gemini vital black zuhanykabin, gemini celtic zuhanykabin, gemini bold in zuhanykabin, gemini galatro zuhanykabin, gemini flexi zuhanykabin
+Leziter Spirit Matt zuhanykabin, Leziter Spirit Bamboo zuhanykabin, Leziter Spirit Deep zuhanykabin, Leziter Bold-in zuhanykabin, Leziter Flexi zuhanykabin, Leziter Galatro zuhanykabin, Leziter Karolino Black zuhanykabin, Leziter Karolino White zuhanykabin, Leziter Cora mélytálcás zuhanykabin, Leziter Simple nyílóajtós zuhanykabin, Leziter River walk in zuhanyfal, Leziter Walker walk in zuhanyfal, Leziter Milagro walk in zuhanyfal, Polo White II zuhanykabin, Polo Black II zuhanykabin, Marco White II zuhanykabin, Marco Black II zuhanykabin, Spirit Mátrix zuhanykabin, Spirit Matt zuhanykabin, Spirit Bamboo zuhanykabin, Spirit Deep zuhanykabin, Bold-in aszimmetrikus zuhanykabin, Flexi aszimmetrikus zuhanykabin, Galatro aszimmetrikus zuhanykabin, Karolino Black mélytálcás zuhanykabin, Karolino White mélytálcás zuhanykabin, Cora mélytálcás zuhanykabin, Simple nyílóajtós zuhanykabin, River walk in zuhanyfal, Walker Walk in zuhanyfal
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
 3
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
-3
+0
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+12
 # a shopping leállítása
 False
