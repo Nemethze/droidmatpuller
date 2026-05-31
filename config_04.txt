@@ -1,16 +1,16 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-zuhanyfal 50 cm, uvegfal, 90x200 zuhanyfal, zuhanyfal uveg, zuhanytálca, glasblokken douchewand, walk in zuhanyfal 120, zuhanyzó, zuhanykabin hu, zuhany üvegfal, zuhany fal, fürdőszoba zuhanyfal, walk in zuhanyfal 90x200, furdoszoba uvegfal, zuhanyfal 100 cm, üveg zuhanyfülke, fürdő üvegfal, uvegfal zuhany, zuhanypanel, zuhanyfal 80, beepitett zuhany, zuhanyfal 60 cm, zuhany üvegfal 110 cm, savmart zuhanyfal, zuhanyfal üveg 90 cm, zuhanyfal 70x200, zuhanyfal walk in, üveg zuhanyfal, üvegfal zuhanyzóhoz, zuhanyfal tejüveg, zuhanyfal fekete, tejüveg zuhanyfal, matt zuhanyfal, zuhany uvegfal, praktiker zuhanyfal, obi zuhanyfal, zuhanyfal, zuhanyfal 70 cm, tusoló fal, zuhanyfal savmart, zuhanyfal 110 cm, walkin zuhanyfal, épített zuhanyzó zuhany üvegfal, fürdőszobai üvegfal, zuhany üvegfal 120 cm, zuhanyfal üveg, fürdőszoba üvegfal, zuhanytálca 90x120, zuhanykabin üveg, üvegfal zuhany, épített zuhany, zuhany üvegfal obi, zuhanyfal üveg 80 cm, walk in zuhanyfal, ravak zuhanykabin, zuhanyfal 120 cm, üvegfal zuhanyhoz, zuhany üvegfal 80 cm, 70 cm zuhanyfal, zuhany üvegfal 70 cm, zuhanyfal 90 cm, szatmári fürdőszoba, fix zuhanyfal, zuhanyfal 90x200, walk in black, fürdőszoba panel, fürdőszoba, edzett üveg zuhanyfal, süllyesztett zuhanytálca, üvegfal fürdőszoba, walk in kabina, zuhanyüveg, zuhany üveg, walk in black zuhanyfal, zuhany üvegfal 90x200, zuhanyfal 60x200, zuhanykabin, egyedi zuhany üvegfal, zuhanyfal 80x200, zuhanyfal 110x200, fürdőkabin, zuhanyfal 100 x 200, fürdőszoba elválasztó panel, zuhanyfal 120x200, zuhanykabin üvegfal, zuhanyfal 90, walk in 70 cm, zuhany paraván, zuhanykabin fal, zuhany üvegfal 60 cm, zuhanyzós fürdőszoba ötletek, fürdőszoba zuhany üveg, üvegfal, zuhanyfalak, zuhany falpanel, fekete zuhanyfal, tusoló üvegfal, zuhanyfal 80 cm, üveg zuhanyfal 120x200, zuhany üvegfal 100 cm
+Spirit Mátrix 80x80 cm szögletes zuhanykabin, Spirit Mátrix 80x80 cm íves zuhanykabin, Spirit Matt 80x80 cm szögletes zuhanykabin, Spirit Matt 80x80 cm íves zuhanykabin, Spirit Bamboo 80x80 cm szögletes zuhanykabin, Spirit Bamboo 80x80 cm íves zuhanykabin, Spirit Deep 80x80 cm íves zuhanykabin, Polo White II 80x80 cm fehér hátfalas zuhanykabin, Polo Black II 80x80 cm fekete hátfalas zuhanykabin, Marco White II 80x80 cm zuhanykabin, Marco Black II 80x80 cm zuhanykabin, Karolino 80x80 cm Black mélytálcás zuhanykabin, Karolino 80x80 cm White mélytálcás zuhanykabin, Cora 80x120 cm mélytálcás zuhanykabin, Bold-in 80x100 cm aszimmetrikus zuhanykabin, Flexi 80x90 cm aszimmetrikus zuhanykabin, Galatro 80x100 cm aszimmetrikus zuhanykabin, Simple 80x100 cm nyílóajtós zuhanykabin, River walk in zuhanyfal 70x190 cm króm, River walk in zuhanyfal 70x190 cm fekete, Walker 70x195 cm Walk in zuhanyfal, Milagro walk in zuhanyfal 90x195 cm, Zuhanyfal 80x185 cm, Zuhanyfal 90x185 cm, Leziter Spirit Mátrix 80x80, Leziter Spirit Matt 80x80, Leziter Spirit Bamboo 80x80, Leziter Spirit Deep 80x80, Leziter Karolino 80x80, Leziter Cora 80x120
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
 10
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
-3
+0
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+12
 # a shopping leállítása
 False
