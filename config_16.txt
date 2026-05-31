@@ -1,16 +1,16 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-polo white ii zuhanykabin, polo black ii zuhanykabin, marco white ii zuhanykabin, marco black ii zuhanykabin, spirit mátrix zuhanykabin, spirit matrix zuhanykabin, spirit matt zuhanykabin, spirit bamboo zuhanykabin, spirit clear zuhanykabin, spirit deep zuhanykabin, bold in zuhanykabin, bold-in zuhanykabin, flexi zuhanykabin, galatro zuhanykabin, karolino zuhanykabin, karolino black zuhanykabin, karolino white zuhanykabin, mila hidromasszázs zuhanykabin, mila fekete zuhanykabin, mila fehér zuhanykabin, vital black zuhanykabin, celtic zuhanykabin, simple nyílóajtós zuhanykabin, leziter polo zuhanykabin, leziter spirit zuhanykabin, leziter marco zuhanykabin, leziter karolino zuhanykabin, leziter mila zuhanykabin, leziter walk in zuhanyfal, leziter zuhanyajtó
+Spirit Clear 80x80 cm szögletes zuhanykabin zuhanytálca nélkül fekete, Cora 80x120 cm mélytálcás zuhanykabin, Flexi 80x80 cm sarokba szerelhető szögletes zuhanykabin zuhanytálca nélkül, Bold-in 80x100 cm aszimmetrikus zuhanykabin zuhanytálca nélkül, Spirit Deep 80x80 cm íves zuhanykabin zuhanytálcával, Galatro 80x100 cm aszimmetrikus zuhanykabin zuhanytálca nélkül, Spirit Matt 80x80 cm íves zuhanykabin zuhanytálca nélkül, Flexi 80x90 cm falsíkra szerelhető aszimmetrikus zuhanykabin zuhanytálca nélkül, Spirit Bamboo 80x80 cm íves zuhanykabin zuhanytálca nélkül, Marco White II 90x90 cm zuhanykabin zuhanytálcával, Polo Black II 80x80 cm szögletes fekete hátfalas zuhanykabin zuhanytálcával, Simple 80x100 cm nyílóajtós aszimmetrikus zuhanykabin zuhanytálca nélkül, Spirit Matt 80x80 cm szögletes zuhanykabin zuhanytálca nélkül, Spirit Bamboo 80x80 cm szögletes zuhanykabin zuhanytálca nélkül, Flexi 80x90 cm sarokba szerelhető aszimmetrikus zuhanykabin zuhanytálca nélkül, Flexi 80x80 cm falsíkra szerelhető szögletes zuhanykabin zuhanytálca nélkül, Leziter Marco fekete zuhanytálcás változat, Leziter Spirit Deep íves fehér mélytálcás verzió, Leziter zuhanykabin, Leziter hidromasszázs zuhanykabin, Leziter zuhanyajtó, Leziter zuhanyfal, Leziter zuhanyszett, Leziter zuhanytálca, Leziter kádparaván, Leziter fürdőkád, Leziter zuhanyfolyóka, Leziter WC csésze, Leziter mosdó, Leziter fürdőszoba kiegészítők
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare, roishopper, Roishopper
 # maxmiális hirdetés megnyitás
 3
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
-3
+0
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+12
 # a shopping leállítása
 False
