@@ -1,16 +1,16 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-zuhanykabin hu, zuhanyfal 50 cm, zuhanyfal tejüveg, üveg zuhanyfal 120x200, fürdőszoba zuhanyfal, zuhanyfal 90x200, zuhanyfal 120x200, uvegfal zuhany, zuhany falpanel, 90x200 zuhanyfal, zuhanykabin, edzett üveg zuhanyfal, zuhanyfal 80, zuhanyfalak, zuhany üvegfal 120 cm, zuhany üvegfal 80 cm, zuhanyfal 80 cm, üvegfal fürdőszoba, üvegfal, zuhanyfal savmart, zuhanypanel, zuhany üvegfal 100 cm, tusoló üvegfal, glasblokken douchewand, üveg zuhanyfülke, zuhanyzó, beepitett zuhany, zuhanyfal walk in, zuhanyzós fürdőszoba ötletek, fürdőszoba elválasztó panel, zuhanyfal 110x200, fürdőszobai üvegfal, obi zuhanyfal, épített zuhanyzó zuhany üvegfal, tejüveg zuhanyfal, fürdőszoba, zuhanyfal 100 cm, zuhany üvegfal obi, zuhany üvegfal 90x200, szatmári fürdőszoba, zuhanyfal 110 cm, üvegfal zuhanyzóhoz, zuhany fal, zuhany üvegfal, fürdőszoba zuhany üveg, walk in black zuhanyfal, fürdőszoba üvegfal, walk in zuhanyfal 120, zuhanyfal 70x200, zuhanyfal üveg 80 cm, furdoszoba uvegfal, fekete zuhanyfal, épített zuhany, matt zuhanyfal, zuhanytálca 90x120, zuhany üvegfal 110 cm, zuhanykabin üveg, savmart zuhanyfal, zuhanyfal 70 cm, zuhanyfal 90 cm, ravak zuhanykabin, fix zuhanyfal, walk in zuhanyfal 90x200, zuhanyfal 80x200, 70 cm zuhanyfal, uvegfal, fürdő üvegfal, üveg zuhanyfal, tusoló fal, zuhanyfal, zuhany üveg, zuhanyfal 60x200, walk in black, zuhanyfal uveg, üvegfal zuhanyhoz, zuhanykabin üvegfal, walk in kabina, zuhanyfal 60 cm, üvegfal zuhany, zuhanytálca, walk in zuhanyfal, praktiker zuhanyfal, zuhanyüveg, walk in 70 cm, zuhany üvegfal 70 cm, zuhany paraván, fürdőszoba panel, süllyesztett zuhanytálca, egyedi zuhany üvegfal, zuhany üvegfal 60 cm, zuhanykabin fal, zuhany uvegfal, fürdőkabin, zuhanyfal fekete, walkin zuhanyfal, zuhanyfal üveg, zuhanyfal 90, zuhanyfal 100 x 200, zuhanyfal 120 cm, zuhanyfal üveg 90 cm
+Polo White II szögletes fehér hátfalas zuhanykabin, Polo Black II szögletes fekete hátfalas zuhanykabin, Marco White II zuhanykabin zuhanytálcával, Marco Black II zuhanykabin zuhanytálcával, Spirit Mátrix szögletes zuhanykabin, Spirit Mátrix íves zuhanykabin, Spirit Matt szögletes zuhanykabin, Spirit Matt íves zuhanykabin, Spirit Bamboo szögletes zuhanykabin, Spirit Bamboo íves zuhanykabin, Spirit Deep íves zuhanykabin zuhanytálcával, Bold-in aszimmetrikus zuhanykabin, Flexi falsíkra szerelhető aszimmetrikus zuhanykabin, Flexi sarokba szerelhető aszimmetrikus zuhanykabin, Galatro aszimmetrikus zuhanykabin, Simple nyílóajtós aszimmetrikus zuhanykabin, Karolino Black mélytálcás zuhanykabin, Karolino White mélytálcás zuhanykabin, Cora mélytálcás zuhanykabin, River walk in króm zuhanyfal, River walk in fekete zuhanyfal, Walker Walk in zuhanyfal, Milagro walk in zuhanyfal, Leziter Polo White II hátfalas zuhanykabin, Leziter Polo Black II hátfalas zuhanykabin, Leziter Marco White II hátfalas zuhanykabin, Leziter Marco Black II hátfalas zuhanykabin, Leziter Bold-in aszimmetrikus zuhanykabin, Leziter Galatro aszimmetrikus zuhanykabin, Leziter Simple aszimmetrikus zuhanykabin
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
-20
+2
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
-3
+0
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-120
+12
 # a shopping leállítása
 False
