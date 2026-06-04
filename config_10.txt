@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-panou sticla dus, paravan dus 70x200, sticla dus walk in, geam dus, paravan dus walk in, sticla dus 120, paravan dus, panouri dus, paravan sticla dus 120x200, paravane dus, perete dus walk in, panou dus, sticla de dus, paravan dus sticla, cadita dus, sticla dus, perete sticla dus, geam dus walk in, panou dus sticla, paravan sticla dus
+paravan dus sticla, sticla dus 120, geam dus walk in, paravan sticla dus, panou dus sticla, paravan dus 70x200, perete dus walk in, sticla de dus, sticla dus walk in, cadita dus, paravan sticla dus 120x200, paravan dus, panou sticla dus, panouri dus, geam dus, sticla dus, paravan dus walk in, paravane dus, perete sticla dus, panou dus
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
