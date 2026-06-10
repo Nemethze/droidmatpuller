@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Leziter Polo White II 80x80 zuhanykabin, Leziter Polo Black II 80x80 zuhanykabin, Leziter Marco White II 90x90 zuhanykabin, Leziter Marco Black II 90x90 zuhanykabin, Leziter Spirit Mátrix 80x80 szögletes zuhanykabin, Leziter Spirit Mátrix 80x80 íves zuhanykabin, Leziter Spirit Matt 80x80 szögletes zuhanykabin, Leziter Spirit Matt 80x80 íves zuhanykabin, Leziter Spirit Bamboo 80x80 szögletes zuhanykabin, Leziter Spirit Bamboo 80x80 íves zuhanykabin, Leziter Spirit Clear 80x80 szögletes zuhanykabin, Leziter Spirit Clear 80x80 íves zuhanykabin, Leziter Spirit Deep 80x80 íves zuhanykabin, Leziter Bold-in 80x100 aszimmetrikus zuhanykabin, Leziter Flexi 80x90 aszimmetrikus zuhanykabin, Leziter Galatro 80x100 aszimmetrikus zuhanykabin, Leziter Simple 80x100 nyílóajtós zuhanykabin, Leziter Cora 80x120 mélytálcás zuhanykabin, Kerra Flow Gold szögletes zuhanykabin, Kerra Pixel Black 90 íves zuhanykabin
+zuhanyfal, zuhany üvegfal, walk in zuhanyfal, zuhanyfal üveg, zuhanykabin, zuhany fal, üveg zuhanyfal, üvegfal zuhany, üvegfal, zuhanyfal 120 cm, üvegfal zuhanyzóhoz, walkin zuhanyfal, zuhanyfal 90x200, fürdőszoba üvegfal, tusoló fal, zuhanyfalak, zuhanyfal 80 cm, 90x200 zuhanyfal, zuhanytálca, tusoló üvegfal
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
