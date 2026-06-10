@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Homelux Leziter Polo White II zuhanykabin, Homelux Leziter Polo Black II zuhanykabin, Homelux Leziter Marco White II zuhanykabin, Homelux Leziter Marco Black II zuhanykabin, Homelux Leziter Spirit Mátrix zuhanykabin, Homelux Leziter Spirit Matt zuhanykabin, Homelux Leziter Spirit Bamboo zuhanykabin, Homelux Leziter Spirit Clear zuhanykabin, Homelux Leziter Spirit Deep zuhanykabin, Homelux Leziter Bold-in zuhanykabin, Homelux Leziter Flexi zuhanykabin, Homelux Leziter Galatro zuhanykabin, Homelux Leziter Simple zuhanykabin, Homelux Leziter Cora zuhanykabin, Homelux Kerra Flow Gold zuhanykabin, Homelux Kerra Pixel Black 90 zuhanykabin, Homelux Kerra Malibu SQ 100x100 zuhanykabin, Homelux Kerra OLGA SQ 100x80 zuhanykabin, Homelux Kerra Solid SQ 100 zuhanykabin, Homelux Kerra zuhanykabin
+tusoló üvegfal, zuhanytálca, zuhanyfal, walkin zuhanyfal, fürdőszoba üvegfal, tusoló fal, zuhanyfal 90x200, zuhanyfalak, zuhanyfal 80 cm, üvegfal zuhany, walk in zuhanyfal, üvegfal, zuhanyfal 120 cm, üvegfal zuhanyzóhoz, zuhanykabin, zuhanyfal üveg, üveg zuhanyfal, 90x200 zuhanyfal, zuhany üvegfal, zuhany fal
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
