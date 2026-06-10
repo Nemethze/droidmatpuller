@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Polo White II szögletes fehér hátfalas zuhanykabin, Polo Black II szögletes fekete hátfalas zuhanykabin, Marco White II fehér hátfalas zuhanykabin, Marco Black II fekete hátfalas zuhanykabin, Spirit Mátrix szögletes zuhanykabin, Spirit Mátrix íves zuhanykabin, Spirit Matt szögletes zuhanykabin, Spirit Matt íves zuhanykabin, Spirit Bamboo szögletes zuhanykabin, Spirit Bamboo íves zuhanykabin, Spirit Clear szögletes zuhanykabin, Spirit Clear íves zuhanykabin, Spirit Deep íves zuhanykabin, Bold-in aszimmetrikus zuhanykabin, Flexi aszimmetrikus zuhanykabin, Galatro aszimmetrikus zuhanykabin, Simple nyílóajtós zuhanykabin, Cora mélytálcás zuhanykabin, Flow Gold nyílóajtós zuhanykabin, Solid SQ króm zuhanykabin
+100x100 zuhanykabin, obi zuhanykabin, zuhanykabin 80x80, zuhanykabin 90x120, zuhanykabin 90x90, zuhanyfal ajtóval, 90x90 zuhanykabin, íves zuhanykabin, belver duo zuhanykabin, zuhanykabin, 120x90 zuhanykabin, 90x120 zuhanykabin, zuhanyfal, zuhanykabin tálcával, 90x90 zuhanykabin tálcával, zuhanykabin 100x100, pilas zuhanykabin, 90 x 90 zuhanykabin, 80x80 zuhanykabin, zuhany üvegfal
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare, roishopper, Roishopper
 # maxmiális hirdetés megnyitás
