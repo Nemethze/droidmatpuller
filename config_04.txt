@@ -5,12 +5,12 @@ Solo New 90x195 cm zuhanyajtó 6mm biztonsági üveggel, Spirit BAMBOO 80x80 sz�
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
-10
+2
 # hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
-0
+1
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-12
+10
 # a shopping leállítása
 False
