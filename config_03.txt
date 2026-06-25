@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-zuhanyfalak, zuhanytálca, üveg zuhanyfal, üvegfal zuhanyzóhoz, fürdőszoba üvegfal, tusoló üvegfal, walk in zuhanyfal, walkin zuhanyfal, 90x200 zuhanyfal, zuhany üvegfal, zuhanyfal 90x200, zuhanyfal üveg, tusoló fal, üvegfal zuhany, zuhany fal, zuhanyfal 120 cm, zuhanyfal, üvegfal, zuhanyfal 80 cm, zuhanykabin
+PXS2P/1000 zuhanyajtó 98.5-101x185 cm jobbos szatén üveggel, River walk in zuhanyfal 100x190 cm, River walk in zuhanyfal 120x190 cm, River walk in zuhanyfal 70x190 cm fekete, River walk in zuhanyfal 80x190 cm, River walk in zuhanyfal 90x190 cm, River walk in zuhanyfal 90x190 cm fekete, Saloon 80x195 cm kétszárnyú zuhanyajtó, Saloon 90x195 cm kétszárnyú zuhanyajtó, Simple nyílóajtós Szögletes Zuhanykabin zuhanytálca nélkül
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
