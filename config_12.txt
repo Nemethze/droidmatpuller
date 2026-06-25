@@ -1,16 +1,16 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-panou sticla dus, paravan dus 70x200, sticla dus walk in, geam dus, paravan dus walk in, sticla dus 120, paravan dus, panouri dus, paravan sticla dus 120x200, paravane dus, perete dus walk in, panou dus, sticla de dus, paravan dus sticla, cadita dus, sticla dus, perete sticla dus, geam dus walk in, panou dus sticla, paravan sticla dus
+paravan sticla dus 140x200, paravan dus 120, geam dus 100x200, paravan dus 110x200, perete sticla dus 70 cm, geam baie dus, paravan dus 90x200, sticla baie dus, panou dus walk in, paravan dus 80x200, paravan dus 60 cm, sticla baie, sticla dus 100x200, perete dus walk in 70 cm, geam baie, perete sticla dus 140x200, geam sticla dus, perete dus sticla, perete dus walk in 80 cm, paravan dus 110 cm
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare, roishopper, Roishopper
 # maxmiális hirdetés megnyitás
-10
-# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
+# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
+1
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-30
+10
 # a shopping leállítása
 False
