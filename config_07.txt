@@ -1,16 +1,16 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-perete sticla dus, cabina dus 80x80, cabina dus brico depot, cabine de dus, cabina de dus 90x90, cadita dus, cabina dus din sticla securizata, cabina dus 100x100 fara cadita, cabina de dus, sticla dus, cabina dus neagra 90x90, cabina dus 120x90, sticla dus 80x80, usa dus culisanta, cabina dus 90x90, cabina de dus dedeman, cabine de dus dimensiuni mici, cabina dus 100x120, cabina de dus 120x90, cabina dus
+cabina dus, cabina dus 100x100, cabina de dus, cabina dus 90x90, cabina dus 80x80, cabine de dus, cabina de dus 90x90, cabina de dus 100x100, cabina dus 120x90, cabina dus 90 90, cabina dus 90x120, cabina de dus 80x80, cabina dus sticla, cabina dus 90 90 ieftine, cabine dus, cabina dus 120x80, cabina dus fara cadita, cabina de dus 90x120, cabină de duș, cabina dus 80x100
 # balcklistelt itemek  ", " elválasztva 
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare, roishopper, Roishopper
 # maxmiális hirdetés megnyitás
-10
-# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
 3
+# hányszor menjen lefele a weboldalon, 0 ha 2 s-et álljon
+1
 # cookie feliratok amiket keres ", " elválasztva
 Elfogadom, Elfogadás, bezárás, ELFOGADOM, Egyetértés és bezárás, Összes süti engedélyezése, Az összes elfogadása, ENGEDÉLYEZEM, Megerősítem, MEGERŐSÍTEM
 # várakozási idő ha szponzorált hirdetés nincs (másodpercben)
-30
+10
 # a shopping leállítása
 False
