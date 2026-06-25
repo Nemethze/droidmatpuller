@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-tusoló üvegfal, zuhanytálca, zuhanyfal, walkin zuhanyfal, fürdőszoba üvegfal, tusoló fal, zuhanyfal 90x200, zuhanyfalak, zuhanyfal 80 cm, üvegfal zuhany, walk in zuhanyfal, üvegfal, zuhanyfal 120 cm, üvegfal zuhanyzóhoz, zuhanykabin, zuhanyfal üveg, üveg zuhanyfal, 90x200 zuhanyfal, zuhany üvegfal, zuhany fal
+Kerra Zoom SC zuhanyfal, Leziter Zuhanyfal Távtartó, Lia hidromasszázs zuhanykabin balos beépítési oldallal, Lia hidromasszázs zuhanykabin jobbos beépítési oldallal, Marco Black II zuhanykabin 80x80x195 cm, Marco White II zuhanykabin 80x80-es méretben, Marco White II zuhanykabin 90x90-es méretben, Mila hidromasszázs zuhanykabin, Mila hidromasszázs zuhanykabin fehér 90x90x215 cm, Polo Black II szögletes fekete hátfalas zuhanykabin akril zuhanytálcával 80x80x195 cm-es méretben
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
