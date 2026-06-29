@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Spirit Matt 80x80x194 cm-es szögletes zuhanykabin erősített akril zuhanytálcával, Spirit Matt 80x80x194 cm-es íves zuhanykabin erősített akril zuhanytálcával, Spirit Matt íves zuhanykabin zuhanytálcával, Spirit Mátrix 80x80-as szögletes zuhanykabin, Valerie 80x100 cm szögletes hidromasszázs zuhanykabin, Valerie 90x90 cm szögletes hidromasszázs zuhanykabin, Vital Black hidromasszázs zuhanykabin 80x80 cm-es méretben, Vital mélytálcás hidromasszázs zuhanykabin 80x80 cm-es méretben, Zuhanyfal 80x185 cm-es méretben fekete, Zuhanyfal 90x185 cm-es méretben, Zuhanyfal 90x185 cm-es méretben fekete
+zuhanyfal 140 cm, íves zuhanykabin, 120x90 zuhanykabin, épített zuhanyzó zuhany üvegfal, zuhanykabin 80x120, tusoló kabin, zuhanyajtó 140 cm, nyíló zuhanyajtó, zuhanykabin fal, tejüveg zuhanyfal, zuhanykabin 80x100, zuhany uvegfal, zuhanyfal 70 cm, zuhanyajtó 70 cm, zuhanyfal 120 cm, zuhanyajtó 100 cm, zuhanyajtó 90, zuhanyajtó 120 cm, zuhanyajtó 80 cm, zuhany tolóajtó, zuhany üvegajtó, toló zuhanyajtó, üveg zuhanyajtó, zuhany üvegfal ajtóval, zuhanyfal ajtóval, zuhanykabin ajtó, zuhanyajtó 140 cm, nyíló zuhanyajtó, zuhanyajtó 70 cm, zuhanyajto
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
