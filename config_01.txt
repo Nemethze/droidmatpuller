@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Aria hidromasszázs zuhanykabin balos beépítési oldallal, Aria hidromasszázs zuhanykabin jobbos beépítési oldallal, Bold görgős zuhanyajtó 120x195 cm fekete, Flexi állítható zuhanyajtó 76-91x185 cm, Flexi állítható zuhanyajtó 86-101x185 cm, Flexi állítható zuhanyajtó 96-111x185 cm fekete, Flexi-S állítható zuhanyajtó 76-91x185 cm, Flexi-S állítható zuhanyajtó 76-91x185 cm fekete, Karolino 90 black mélytálcás zuhanykabin, Karolino 90 white mélytálcás zuhanykabin
+zuhanyfal, zuhanykabin, zuhany üvegfal, walk in zuhanyfal, zuhanyfal üveg, zuhanyajtó, üveg zuhanyfal, zuhany fal, 90x90 zuhanykabin, zuhanykabin ajtó, zuhanykabin 80x80, 100x100 zuhanykabin, 80x80 zuhanykabin, zuhanykabin 100x100, üvegfal, zuhanyfal ajtóval, üvegfal zuhany, zuhanyfalak, zuhanyfal 120 cm, zuhanyajtó 100 cm, zuhanyajtó 90, fürdőszoba üvegfal, zuhanyajtó 120 cm, üvegfal zuhanyzóhoz, zuhanykabin 90x120, üvegfal fürdőszoba, zuhanyajtó 80 cm, walkin zuhanyfal, tusoló üvegfal, zuhanyfal 100 cm
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
