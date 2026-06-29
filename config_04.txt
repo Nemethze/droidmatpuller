@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-Solo New 90x195 cm zuhanyajtó 6mm biztonsági üveggel, Spirit BAMBOO 80x80 szögletes zuhanykabin zuhanytálca nélkül, Spirit BAMBOO 80x80x180cm-es íves zuhanykabin zuhanytálca nélkül, Spirit BAMBOO 80x80x194 cm íves zuhanykabin erősített akril zuhanytálcával, Spirit Bamboo íves zuhanykabin zuhanytálcával, Spirit Clear 80x80 cm íves zuhanykabin zuhanytálcával, Spirit Clear 80x80x180 cm-es szögletes zuhanykabin zuhanytálca nélkül fekete, Spirit Matt 80x80 cm íves Zuhanykabin Zuhanytálca nélkül, Spirit Matt 80x80x180 cm-es szögletes zuhanykabin zuhanytálca nélkül, Spirit Matt 80x80x180 cm-es íves zuhanykabin zuhanytálca nélkül
+üvegfal zuhanyzóhoz, zuhanykabin 90x120, üvegfal fürdőszoba, zuhanyajtó 80 cm, walkin zuhanyfal, tusoló üvegfal, zuhanyfal 100 cm, zuhanyfal 90x200, 90x120 zuhanykabin, zuhanyfal 80 cm, fekete zuhanyfal, zuhanykabin tálcával, zuhanyfal 90 cm, zuhany tolóajtó, zuhany üvegajtó, zuhanyfal 60 cm, 80x120 zuhanykabin, zuhanyfal 50 cm, zuhanyajto, toló zuhanyajtó, üveg zuhanykabin, zuhanyfal 120x200, zuhanyfal fekete, 80x100 zuhanykabin, zuhany üvegfal 90x200, fekete zuhanykabin, zuhanykabin 80x80 szögletes, üveg zuhanyajtó, zuhanyfal 110 cm, zuhany üvegfal ajtóval
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
