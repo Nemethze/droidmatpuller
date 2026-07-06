@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-üvegfal zuhanyzóhoz, zuhanykabin 90x120, üvegfal fürdőszoba, zuhanyajtó 80 cm, walkin zuhanyfal, tusoló üvegfal, zuhanyfal 100 cm, zuhanyfal 90x200, 90x120 zuhanykabin, zuhanyfal 80 cm, fekete zuhanyfal, zuhanykabin tálcával, zuhanyfal 90 cm, zuhany tolóajtó, zuhany üvegajtó, zuhanyfal 60 cm, 80x120 zuhanykabin, zuhanyfal 50 cm, zuhanyajto, toló zuhanyajtó, üveg zuhanykabin, zuhanyfal 120x200, zuhanyfal fekete, 80x100 zuhanykabin, zuhany üvegfal 90x200, fekete zuhanykabin, zuhanykabin 80x80 szögletes, üveg zuhanyajtó, zuhanyfal 110 cm, zuhany üvegfal ajtóval
+zuhanykabin 80x80, zuhanyfal 100 cm, üveg zuhanyfal, zuhanykabin 80x100, zuhanyfal 120 cm, 80x80 zuhanykabin, zuhanyfal fekete, zuhany üvegfal 90x200, fürdőszoba üvegfal, zuhanykabin 90x120, zuhanyfal ajtóval, 120x90 zuhanykabin, walkin zuhanyfal, zuhanyfal 70 cm, üvegfal, zuhanykabin 80x120, tusoló üvegfal, zuhanyfal 60 cm, üvegfal zuhanyzóhoz, zuhanykabin 80x80 szögletes
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
