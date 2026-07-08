@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-set mobilier gradina Leziter Marie Balcony, set mobilier terasa Leziter Rozetta 4+1, mobilier gradina Leziter Lund 4+1, set masa si scaune Leziter Elzas 4+1, mobilier exterior Leziter Arlon 6+1, set gradina Leziter Orlo 4+1, mobilier terasa Leziter Venus Quadro, set mobilier gradina Leziter Venus Balcony, mobilier exterior Leziter Venus Large 7 persoane, set gradina Leziter Venus Large V 7 persoane, mobilier terasa Leziter Venus II Big 5 persoane, set mobilier gradina Leziter Venus 4 persoane, mobilier exterior Leziter City 5 persoane, set coltar gradina Leziter City, mobilier gradina Leziter Elements Balcony, set terasa Homelux Margarida, set mobilier terasa Homelux Andreea, scaun terasa Homelux Flora, scaun terasa Homelux Rossi, masa gradina Homelux SAK 156 Black
+cabina dus 90x90, cabina de dus 100x100, paravan dus walk in, perete sticla dus 90x200, cabina dus 80x80, usa culisanta dus 120 cm, cabina dus fara cadita, paravan sticla dus 120x200, cabina dus 120x90, usa dus culisanta, cabina dus sticla 90x90, perete dus walk in 120 cm, cabina dus cu cadita, paravan dus 100x200, cabina de dus 80x100, usa cabina dus, cabina dus 90x120, perete de dus sticla, cabina dus neagra, paravan dus sticla
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare, roishopper, Roishopper
 # maxmiális hirdetés megnyitás
