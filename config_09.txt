@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-cumpara Leziter Marie Balcony, Leziter Rozetta 4+1 online, comanda Leziter Lund 4+1, cumpara Leziter Elzas 4+1, Leziter Arlon 6+1 online, comanda Leziter Orlo 4+1, cumpara Leziter Venus Quadro, Leziter Venus Balcony online, comanda Leziter Venus Large 7 persoane, cumpara Leziter Venus Large V 7 persoane, Leziter Venus II Big 5 persoane online, comanda Leziter Venus 4 persoane, cumpara Leziter City 5 persoane, Leziter City coltar online, comanda Leziter Elements Balcony, cumpara Homelux Margarida, Homelux Andreea online, comanda scaun Homelux Flora, cumpara scaun Homelux Rossi, Homelux SAK 156 Black online
+cabina de dus 80x100, perete dus walk in, cabina dus 80x80 fara cadita, usa dus culisanta 120 cm, cabina de dus 120x80, paravan sticla dus 80x200, cabina dus 90x100, usa de dus 90 cm, cabina de dus din sticla, perete sticla dus 140x200, cabina dus patrata 80x80, paravan dus 50 cm, cabine dus sticla, usa cabina de dus, cabina dus dreptunghiulara 90x120, perete dus 120 cm, cabina dus neagra 90x90, paravan de sticla dus, cabina dus cu usi glisante, geam securizat dus
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
