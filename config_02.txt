@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-90x90 zuhanykabin, üvegfal, zuhanykabin 100x100, 90x90 zuhanykabin tálca nélkül, 80x120 zuhanykabin tálcával, íves zuhanykabin 90x90, zuhanykabin 90x90 íves, zuhanyfal 120 cm, zuhanykabin 80x120, 90x90 zuhanykabin tálcával, zuhanykabin fekete, sarok zuhanykabin, üveg zuhanyfal, 80 * 120 zuhanykabin, zuhanykabin ajtó, zuhanykabin tálcával 80x80, zuhanykabin 90x90 szögletes, 90 90 zuhanykabin, tálca nélküli zuhanykabin, zuhanyfal 90x90, 80x120 zuhanykabin, 80x100 zuhanykabin, 80x80 zuhanykabin tálcával, walk in zuhanyfal, zuhanykabin üvegfal, 90x120 zuhanykabin, 100x100 zuhanykabin, tusoló üvegfal, zuhanykabin 90x90, zuhany üvegfal ajtóval, zuhany üvegfal, fürdőszoba üvegfal, zuhanyfal ajtóval, zuhanykabin, íves zuhanykabin, zuhanyfal 90x200, tálca nélküli zuhanykabin 100x100, 90x120 zuhanykabin tálcával, zuhany üvegfal 90x200, zuhanykabin 120x90, komplett zuhanykabin, zuhanykabin 70x70, íves zuhanykabin 90x90 tálca nélkül, zuhanykabin 80x80, üveg zuhanykabin, zuhanyfülke, 80x80 zuhanykabin nyíló ajtóval, zuhanyfal 50 cm, üvegfal zuhanyzóhoz, fekete zuhanyfal
+zuhanykabin 80x120, zuhanyfal 70 cm, 100x100 zuhanykabin, zuhanyfal üveg, 90x90 zuhanykabin, fürdőszoba üvegfal, zuhanykabin 90x120, zuhanyfal 60 cm, üvegfal fürdőszoba, zuhanykabin 80x80 szögletes, tejüveg zuhanyfal, 120x90 zuhanykabin, fekete zuhanykabin, zuhanyfal 110 cm, üveg zuhanykabin, zuhanyfal 120x200, walkin zuhanyfal, zuhanykabin fal, zuhanyfalak, épített zuhanyzó zuhany üvegfal
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
