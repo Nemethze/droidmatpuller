@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-90 * 90 zuhanykabin, zuhanykabin 80x100, zuhanykabin, üveg zuhanykabin, zuhanykabin tálcával, 80x100 zuhanykabin, 80x120 zuhanykabin, 90x120 zuhanykabin, fekete zuhanykabin, íves zuhanykabin, zuhanykabin 90x90 szögletes, zuhanykabin 90x90, zuhanyajtó, zuhanykabin 90x120, zuhanykabin 120x90, zuhanykabin 100x100, 120x90 zuhanykabin, 90x90 zuhanykabin, zuhany üvegfal, 90x90 zuhanykabin tálcával
+zuhanykabin ajtó, 80x80 zuhanykabin, fekete zuhanykabin 80x80, 80x80 zuhanykabin nyíló ajtóval, íves zuhanykabin 90x90, zuhanykabin 70x70, zuhanyfal, íves zuhanykabin, zuhanykabin 90x90 szögletes, üveg zuhanyfal ajtóval, zuhanyajtó, 90x90 íves zuhanykabin tálcával, zuhanykabinok, zuhanykabin 90x90 szögletes tálca nélkül, zuhanykabin 80x120, zuhanykabin, üveg zuhanyfal, szögletes zuhanykabin, asszimetrikus zuhanykabin, zuhanykabin 120x90
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, zuhanyajtoshop
 # maxmiális hirdetés megnyitás
