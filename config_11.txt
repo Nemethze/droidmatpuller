@@ -1,7 +1,7 @@
 # repülő mód utánni várakozási idő beállítása másodpercben
 2
 # keresési szavak ", " elválasztva
-cabina dus 100 100, usa culisanta dus 160 cm, perete sticla dus 70 cm, cabina de dus neagra, paravan dus 80x200, cabina dus neagra 90x90, cabina dus 80 100, paravan sticla dus 140x200, cabina de dus dreptunghiulara, perete dus sticla, usa dus 100 cm, cabina dus 100x120, paravan dus 110x200, cabina dus 90 100, cabina dus patrata 90x90, paravan de sticla dus, cabina dus sticla securizata, cabina de dus 90x100, usa dus, perete de sticla dus
+usa culisanta dus 160 cm, perete sticla dus 70 cm, cabina de dus neagra, paravan dus 80x200, cabina dus neagra 90x90, cabina dus 80 100, paravan sticla dus 140x200, cabina de dus dreptunghiulara, perete dus sticla, usa dus 100 cm, cabina dus 100x120, paravan dus 110x200, cabina dus 90 100, cabina dus patrata 90x90, paravan de sticla dus, cabina dus sticla securizata, cabina de dus 90x100, usa sticla dus, perete de sticla dus, cabina dus 90x90
 # balcklistelt itemek  ", " elválasztva
 ||, Water Fun, Waterfun, ZuhanykabinPont, waterfun.hu, zuhanykabinpont.hu, Zuhanykabinpont, Baiedevis, baiedevis, casasclipitoare
 # maxmiális hirdetés megnyitás
